@@ -3,7 +3,8 @@ from Common.basepage import BasePage
 
 
 class RegisterPage(BasePage):
-    def register(self, companyName, LicenseNo, linkMan, contactNumber, detail, file_path):
+    def register(self, companyName, LicenseNo, linkMan, contactNumber, detail,
+                 file_path, invoiceTitle, dutyParagraph, bankOfDeposit, bankAccount):
         self.get_element_input_txt(loc.companyName_loc, "输入公司名称", companyName)
         self.get_element_input_txt(loc.LicenseNo_loc, "输入营业执照号", LicenseNo)
         self.get_element_click(loc.uploadOne_loc, "点击上传营业执照图片")
@@ -23,5 +24,28 @@ class RegisterPage(BasePage):
         self.get_element_click(loc.add_address, "详细地址确定按钮")
         self.get_element_click(loc.yyzx_loc, "选择运营中心")
         self.get_element_click(loc.xzyy_loc, "西藏运营中心")
+        self.get_element_input_txt(loc.invoiceTitle_loc, "输入发票抬头", invoiceTitle)
+        self.get_element_input_txt(loc.dutyParagraph_loc, "输入税号", dutyParagraph)
+        self.get_element_input_txt(loc.bankOfDeposit_loc, "输入开户行", bankOfDeposit)
+        self.get_element_input_txt(loc.bankAccount_loc, "输入银行账号", bankAccount)
+        self.get_element_click(loc.submit_loc, "提交")
+
+    @property
+    def get_err(self):
+        linkman = '注册页面_注册功能错误信息_获取异常提示语:联系人不能为空'
+        contact = '注册页面_注册功能错误信息_获取异常提示语:联系方式不能为空'
+        yyzx = '注册页面_注册功能错误信息_获取异常提示语:运营中心不能为空'
+        companyName = '注册页面_注册功能错误信息_获取异常提示语:公司名称已存在'
+        try:
+            return self.get_element_txt(loc.linkmanErr_loc, linkman)
+        except Exception:
+            return self.get_element_txt(loc.contactEerr_loc, contact)
+        except Exception:
+            return self.get_element_txt(loc.yyzx_loc, yyzx)
+        except Exception:
+            return self.get_element_txt(loc.companyNameErr_loc, companyName)
+
+
+
 
 

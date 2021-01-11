@@ -4,10 +4,11 @@ from selenium.webdriver.common.by import By
 class RegisterLocator:
     companyName_loc = (By.XPATH, '//input[@placeholder="输入公司名称"]')  # 输入公司名称
     LicenseNo_loc = (By.XPATH, '//input[@placeholder="输入统一社会信用代码或营业执照号"]')  # 输入营业执照号
-    linkMan_loc = (By.XPATH, '//input[@placeholder="输入联系人姓名"]') # 输入联系人
+    linkMan_loc = (By.XPATH, '//input[@placeholder="输入联系人姓名"]')  # 输入联系人
     contactNumber_loc = (By.XPATH, '//input[@placeholder="输入联系人号码"]')  # 输入联系人号码
     site_loc = (By.XPATH, "//span[@class='el-cascader__label']")  # 地址选择
     province_loc = (By.XPATH, "//li[starts-with(@role,'menuitem')]/span[text()='广西']")  # 省
+
     city_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='南宁']")  # 市
     district_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='武鸣区']")  # 区
     detailButton_loc = (By.XPATH, "//input[contains(@placeholder,'详细地址定位')]")  # 详细地址定位
@@ -18,3 +19,12 @@ class RegisterLocator:
     uploadThree_loc = (By.XPATH, "//div[@class='avatar upimg']//input[@name='avatar']")  # 上传身份证反面
     yyzx_loc = (By.XPATH, "//input[@placeholder='请选择运营中心']")  # 选择运营中心
     xzyy_loc = (By.XPATH, "//li[@class='el-select-dropdown__item']/span[text()='西藏运营中心']")
+    invoiceTitle_loc = (By.XPATH, '//input[@placeholder="输入发票抬头"]')  # 输入发票抬头
+    dutyParagraph_loc = (By.XPATH, '//input[@placeholder="输入税号"]')  # 输入税号
+    bankOfDeposit_loc = (By.XPATH, '//input[@placeholder="输入开户行"]')  # 输入开户行
+    bankAccount_loc = (By.XPATH, '//input[@placeholder="输入银行账号"]')  # 输入银行账号
+    submit_loc = (By.XPATH, '//button[@ class="upBtn"]')  # 提交按钮
+    companyNameErr_loc = (By.XPATH, '//div[@class="_alert_dialog"]/child::p[text()="公司名称已存在!"]')  # 公司名称已存在
+    linkmanErr_loc = (By.XPATH, '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')  # 联系人不能为空
+    contactEerr_loc = (By.XPATH, '//div[@class="_alert_dialog"]/child::p[text()="联系方式不能为空"]')  # 联系方式不能为空
+    yyzxErr_loc = (By.XPATH, '//div[@class="_alert_dialog"]/child::p[text()="运营中心不能为空"]')   # 运营中心不能为空
