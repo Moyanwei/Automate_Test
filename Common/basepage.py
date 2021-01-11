@@ -12,7 +12,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from Common import contants
 from Common.handle_log import case_log
-
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 
 class BasePage:
@@ -102,14 +103,14 @@ class BasePage:
             raise e
 
     def clear_text(self, locator, img_doc, timeout=20, frequency=0.5):
-        '''
+        """
         清除文本框的内容
-        :param loc: 元素定位的XPATH元组表达式
+        :param locator:
         :param img_doc: 截图说明，截图图片
         :param timeout: 等待的超时时间
         :param frequency: 轮询频率
         :return:
-        '''
+        """
         try:
             case_log.info("在 {}中清除元素{}的文本内容".format(img_doc, locator))
             self.get_element_click(locator, img_doc, timeout, frequency)
@@ -278,13 +279,13 @@ class BasePage:
         time.sleep(2)
 
     def upload_file(self, filename, img_doc, browser_type="chrome"):
-        '''
+        """
         非input标签的文件上传
         :param filename: 文件名（绝对路径）
         :param img_doc: 截图说明，截图图片
         :param browser_type: 浏览器类型
         :return:
-        '''
+        """
         try:
             case_log.info("上传文件（{}）".format(filename))
             time.sleep(2)
@@ -313,9 +314,6 @@ class BasePage:
             # 异常日志捕获
             case_log.exception("等待多个元素{}可见失败".format(locator))
             self.save_screen_shoot(img_doc)
-            # print('{} Element Not found!!!'.format(e))
-            # self.driver.save_screenshot(
-            #     contants.pictures_dir+"/{}.png".format(time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime())))
         else:
             end_time = time.time()
             case_log.info("页面等待多个元素{}可见，等待时间长为：{}s 。".format(locator, round(end_time - start_time, 3)))
@@ -332,11 +330,11 @@ class BasePage:
         self.save_screen_shoot(img_doc)
 
     def switch_to_default_content(self, img_doc):
-        '''
+        """
         切换iframe到main页面
         :param img_doc: 截图说明，截图图片
         :return:
-        '''
+        """
         try:
             case_log.info("切换iframe到main页面")
             self.driver.switch_to.default_content()
@@ -345,9 +343,6 @@ class BasePage:
             self.save_screen_shoot(img_doc)
             raise e
 
-
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 
 if __name__ == '__main__':  # 测试basepage方法是否正确
     driver = webdriver.Chrome()

@@ -26,6 +26,7 @@ class HandleLog(object):
                                    '[%(name)s] - '  # 日志收集器名字
                                    '[日志信息]: %(message)s')  # 日志输出的信息
      """
+
     def __init__(self, logger_name):
         # 1、定义日志收集器
         self.case_log = logging.getLogger(logger_name)
@@ -45,7 +46,6 @@ class HandleLog(object):
         console_handle.setLevel(console_level)
         file_handle.setLevel(file_level)
 
-
         ch = logging.Formatter(simple_formatter)
         fh = logging.Formatter(verbose_formatter)
         console_handle.setFormatter(ch)  # 控制台显示简洁的日志
@@ -64,7 +64,6 @@ class HandleLog(object):
 
 
 case_log = HandleLog(logger_name='OMS').get_logger()
-
 
 if __name__ == '__main__':
     case_log = HandleLog(logger_name='casetest').get_logger()

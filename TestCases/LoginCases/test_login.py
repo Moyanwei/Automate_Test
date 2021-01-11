@@ -8,7 +8,6 @@ from TestDatas.LoginDatas import login_datas
 @allure.issue('https://oms.sdhwlw.com/')
 @pytest.mark.login
 @pytest.mark.usefixtures('login_driver')  # 调用（执行）了login_driver这个函数
-
 class TestLogin:
     @allure.story('用户名和密码正确-登录成功')
     @allure.severity('normal')
@@ -27,8 +26,8 @@ class TestLogin:
         with allure.step('1.输入用户名：{}。 '
                          '2.输入密码：{}。 '
                          '3.点击登录'.format(data['membMobile'], data['membPassword'])):
-            login_driver[0].login(data['membMobile'], data['membPassword'])
-        assert login_driver[1].if_user_is_exist()
+            login_driver.login(data['membMobile'], data['membPassword'])
+        assert login_driver.if_user_is_exist()
 
     @allure.story('用户名和密码异常-登录失败')
     # @pytest.mark.flaky(reruns=2, reruns_delay=5)
@@ -47,9 +46,8 @@ class TestLogin:
                          '3.点击登录'.format(data['membMobile'], data['membPassword'])):
             try:
                 img_doc = data['dataName']
-                login_driver[0].login(data['membMobile'], data['membPassword'])
-                assert data['errorMsg'] == login_driver[0].get_err()
+                login_driver.login(data['membMobile'], data['membPassword'])
+                assert data['errorMsg'] == login_driver.get_err()
             except Exception as e:
-                login_driver[0].save_screen_shoot(img_doc)
+                login_driver.save_screen_shoot(img_doc)
                 raise e
-

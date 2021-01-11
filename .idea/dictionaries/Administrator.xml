@@ -5,9 +5,11 @@
       <w>asctime</w>
       <w>basepage</w>
       <w>cascader</w>
+      <w>casetest</w>
       <w>consigner</w>
       <w>consignorl</w>
       <w>datas</w>
+      <w>eerr</w>
       <w>eles</w>
       <w>frequeny</w>
       <w>gologin</w>
@@ -22,6 +24,7 @@
       <w>runtest</w>
       <w>staf</w>
       <w>xlsx</w>
+      <w>yyzx</w>
     </words>
   </dictionary>
 </component>

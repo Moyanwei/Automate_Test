@@ -10,7 +10,7 @@ from Common import contants
 
 
 class OperationalError(Exception):
-    'operation error'
+    """operation error"""
 
 
 class HandleConfig(object):
