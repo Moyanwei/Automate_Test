@@ -30,7 +30,6 @@ class RegisterPage(BasePage):
         self.get_element_input_txt(loc.bankAccount_loc, "输入银行账号", bankAccount)
         self.get_element_click(loc.submit_loc, "提交")
 
-    @property
     def get_err(self):
         linkman = '注册页面_注册功能错误信息_获取异常提示语:联系人不能为空'
         contact = '注册页面_注册功能错误信息_获取异常提示语:联系方式不能为空'
@@ -44,6 +43,18 @@ class RegisterPage(BasePage):
             return self.get_element_txt(loc.yyzx_loc, yyzx)
         except Exception:
             return self.get_element_txt(loc.companyNameErr_loc, companyName)
+
+    def submit_is_exist(self):
+        """
+        提交按钮元素是否存在。存在返回True，不存在返回False
+        :return:
+        """
+        try:
+            self.wait_element_visible(loc.submit_loc, "注册-查看提交按钮是否存在")
+        except TimeoutError:
+            return False
+        else:
+            return True
 
 
 
