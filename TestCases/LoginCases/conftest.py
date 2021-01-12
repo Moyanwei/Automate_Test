@@ -28,9 +28,9 @@ def login_web(access_web):  # 继承了access_web的前置后置。作为参数�
 @pytest.fixture
 def init_driver():
     """
-     前置
-     打开谷歌浏览器，访问web网址
-   """
+    前置
+    打开谷歌浏览器，访问web网址
+    """
     driver = webdriver.Chrome()
     driver.get(cd.login_url)
     driver.maximize_window()
