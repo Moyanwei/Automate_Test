@@ -3,8 +3,7 @@ from Common.basepage import BasePage
 
 
 class RegisterPage(BasePage):
-    def register(self, companyName, LicenseNo, linkMan, contactNumber, detail,
-                 file_path, invoiceTitle, dutyParagraph, bankOfDeposit, bankAccount):
+    def register(self, companyName, LicenseNo, linkMan, contactNumber, detail, file_path, invoiceTitle, dutyParagraph, bankOfDeposit, bankAccount):
         self.get_element_input_txt(loc.companyName_loc, "输入公司名称", companyName)
         self.get_element_input_txt(loc.LicenseNo_loc, "输入营业执照号", LicenseNo)
         self.get_element_click(loc.uploadOne_loc, "点击上传营业执照图片")

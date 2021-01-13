@@ -1,4 +1,4 @@
 # -*- coding: UTF-8 -*-
 # 登陆地址
 login_url = "https://oms.sdhwlw.com/"
-login_user = ("18858541522", "sdh168168")
+login_user = ("15691750556", "sdh123456")

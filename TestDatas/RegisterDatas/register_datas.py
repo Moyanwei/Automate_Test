@@ -1,5 +1,5 @@
 # 正常场景测试数据
-normal_data = [{'companyName': '测试工厂',
+normal_data = [{'companyName': '测试企业工厂',
                 'LicenseNo': '545357772666',
                 'file_path': 'D:\Item_set\223.jpg',
                 'linkMan': '张海',
