@@ -1,12 +1,13 @@
 # coding: utf-8
 import pytest
-from TestDatas.RegisterDatas import register_datas
+from TestDatas.RegisterDatas import register_datas as REG
+from selenium import webdriver
+from PageObjects.LoginPage.login_page import LoginPage
 
 
-@pytest.mark.usefixtures('register_driver')
+@pytest.mark.usefixtures('register_web')
 class TestRegister:
-    @pytest.mark.parametrize('data', register_datas.normal_data)
-    def test_register01(self, data, register_driver):
+    def test_register01(self, register_web):
         """
         注册功能
         :param data: 测试数据
@@ -19,7 +20,10 @@ class TestRegister:
         页面跳转至注册信息填写界面-填写注册认证信息
         断言-首页-获取注册界面（提交）按钮元素，确认元素是否存在
         """
-        register_driver.register(data['companyName'], data['LicenseNo'], data['linkMan'],
-                                 data['contactNumber'], data['detail'], data['invoiceTitle'],
-                                 data['dutyParagraph'], data['bankOfDeposit'], data['bankAccount'])
-        assert register_driver.submit_is_exist()
+        register_web[1].register(REG.normal_data['companyName'], REG.normal_data['LicenseNo'],
+                                 REG.normal_data['linkMan'], REG.normal_data['contactNumber'],
+                                 REG.normal_data['detail'], REG.normal_data['invoiceTitle'],
+                                 REG.normal_data['dutyParagraph'], REG.normal_data['bankOfDeposit'],
+                                 REG.normal_data['bankAccount'], REG.normal_data['file_path1'],
+                                 REG.normal_data['file_path2'], REG.normal_data['file_path3'])
+        assert register_web[1].submit_is_exist()

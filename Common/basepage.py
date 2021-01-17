@@ -37,7 +37,7 @@ class BasePage:
         allure.attach(file, img_doc, allure.attachment_type.PNG)
         case_log.info("页面截图成功文件保存在：{}".format(filename))
 
-    def wait_element_visible(self, locator, img_doc, timeout=20, frequeny=0.5):
+    def wait_element_visible(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待元素可见
         :param locator:
@@ -49,7 +49,7 @@ class BasePage:
         case_log.info("在 {} ，等待元素 {} 可见。".format(img_doc, locator))
         start_time = time.time()
         try:
-            ele = WebDriverWait(self.driver, timeout, frequeny).until(EC.visibility_of_element_located(locator))
+            ele = WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(locator))
         except Exception as e:
             # 异常截图 - 通过截图名称，知道是哪个页面或者那个模块出错了
             # 异常日志捕获
@@ -78,9 +78,9 @@ class BasePage:
             case_log.info("页面元素{}查找存在，等待时间长为：{}s 。".format(locator, round(end_time - start_time, 3)))
             return ele
 
-    def get_element_click(self, locator, img_doc, timeout=20, frequeny=0.5):
+    def get_element_click(self, locator, img_doc, timeout=20, frequency=0.5):
         """等待元素可点击"""
-        self.wait_element_visible(locator, img_doc, timeout, frequeny)
+        self.wait_element_visible(locator, img_doc, timeout, frequency)
         ele = self.get_element(locator, img_doc)
         case_log.info("在 {}，点击元素{}。".format(img_doc, locator))
         try:
@@ -90,9 +90,9 @@ class BasePage:
             self.save_screen_shoot(img_doc)
             raise e
 
-    def get_element_input_txt(self, locator, img_doc, content, timeout=20, frequeny=0.5):
+    def get_element_input_txt(self, locator, img_doc, content, timeout=20, frequency=0.5):
         """对输入框输入文本内容"""
-        self.wait_element_visible(locator, img_doc, timeout, frequeny)
+        self.wait_element_visible(locator, img_doc, timeout, frequency)
         ele = self.get_element(locator, img_doc)
         case_log.info("在 {}，对元素{}输入内容：{}。".format(img_doc, locator, content))
         try:
@@ -120,9 +120,9 @@ class BasePage:
             self.save_screen_shoot(img_doc)
             raise e
 
-    def get_element_attribute(self, locator, img_doc, attribute_name, timeout=20, frequeny=0.5):
+    def get_element_attribute(self, locator, img_doc, attribute_name, timeout=20, frequency=0.5):
         """获取WebElement对象的属性值"""
-        self.wait_element_visible(locator, img_doc, timeout, frequeny)
+        self.wait_element_visible(locator, img_doc, timeout, frequency)
         ele = self.get_element(locator, img_doc)
         case_log.info("在 {}，获取元素{}属性{}。".format(img_doc, attribute_name, locator))
         try:
@@ -135,7 +135,7 @@ class BasePage:
             case_log.info("获取元素属性内容为： {} ".format(value))
             return value
 
-    def wait_page_contain_element(self, locator, img_doc, timeout=20, frequeny=0.5):
+    def wait_page_contain_element(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待元素存在
         :param locator:
@@ -147,7 +147,7 @@ class BasePage:
         case_log.info("在 {}，等待元素{}存在。".format(img_doc, locator))
         start_time = time.time()
         try:
-            ele = WebDriverWait(self.driver, timeout, frequeny).until(EC.presence_of_element_located(locator))
+            ele = WebDriverWait(self.driver, timeout, frequency).until(EC.presence_of_element_located(locator))
         except TimeoutError:
             # 异常截图 - 通过截图名称，知道是哪个页面或者那个模块出错了
             # 异常日志捕获
@@ -158,7 +158,7 @@ class BasePage:
             case_log.info("页面元素{}等待存在,等待时间长为：{}s 。".format(locator, round(end_time - start_time, 3)))
             return ele
 
-    def get_element_txt(self, locator, img_doc, timeout=20, frequeny=0.5):
+    def get_element_txt(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         获取元素文本只要存在就行，不需要可见
         :param locator:
@@ -167,7 +167,7 @@ class BasePage:
         :param frequeny:
         :return:
         """
-        self.wait_page_contain_element(locator, img_doc, timeout, frequeny)
+        self.wait_page_contain_element(locator, img_doc, timeout, frequency)
         ele = self.get_element(locator, img_doc)
         case_log.info("在 {} ，获取元素文本内容： {} 。".format(img_doc, locator))
         try:
@@ -180,7 +180,7 @@ class BasePage:
             case_log.info("获取元素文本内容为：{} ".format(text))
             return text
 
-    def get_element_select(self, locator, img_doc, timeout=20, frequeny=0.5):
+    def get_element_select(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待元素可以被选择
         :param locator:
@@ -190,7 +190,7 @@ class BasePage:
         case_log.info("在 {}，等待元素{}可以选择。".format(img_doc, locator))
         start_time = time.time()
         try:
-            ele = WebDriverWait(self.driver, timeout, frequeny).until(EC.element_located_to_be_selected(locator))
+            ele = WebDriverWait(self.driver, timeout, frequency).until(EC.element_located_to_be_selected(locator))
         except Exception as e:
             case_log.exception("等待元素{}选择失败".format(locator))
             self.save_screen_shoot(img_doc)
@@ -199,7 +199,7 @@ class BasePage:
             case_log.info("页面等待元素{}可以选择，等待时间长为：{}s 。".format(locator, round(end_time - start_time, 3)))
             return ele
 
-    def get_frame_element(self, locator, img_doc, timeout=20, frequeny=0.5):  # need update
+    def get_frame_element(self, locator, img_doc, timeout=20, frequency=0.5):  # need update
         """
         跳转到iframe
         :param locator:
@@ -209,7 +209,7 @@ class BasePage:
         case_log.info("在 {}，跳转到iframe{}。".format(img_doc, locator))
         start_time = time.time()
         try:
-            ele = WebDriverWait(self.driver, timeout, frequeny).until(
+            ele = WebDriverWait(self.driver, timeout, frequency).until(
                 EC.frame_to_be_available_and_switch_to_it(locator))
         except TimeoutError:
             # 异常截图 - 通过截图名称，知道是哪个页面或者那个模块出错了
@@ -221,11 +221,11 @@ class BasePage:
             case_log.info("跳转到iframe{},等待时间长为：{}s 。".format(locator, round(end_time - start_time, 3)))
             return ele
 
-    def get_mouse_element_click(self, locator, img_doc, timeout=20, frequeny=0.5):
+    def get_mouse_element_click(self, img_doc, timeout=20, frequency=0.5):
         """鼠标悬浮"""
-        self.wait_element_visible(locator, img_doc, timeout, frequeny)
-        ele = self.get_element(locator, img_doc)
-        case_log.info("在 {}，对元素{}进行鼠标操作 。".format(img_doc, locator))
+        self.wait_element_visible(img_doc, timeout, frequency)
+        ele = self.get_element(img_doc)
+        case_log.info("在 {}，对元素{}进行鼠标操作 。".format(img_doc))
         try:
             ac = ActionChains(self.driver)
             return ac.move_to_element(ele).click(ele).perform()
@@ -234,7 +234,7 @@ class BasePage:
             self.save_screen_shoot(img_doc)
             raise e
 
-    def get_upload_file(self, locator, img_doc, filePath=contants.test_file, browser_type="chrome"):
+    def get_upload_file(self, filePath, browser_type="chrome"):
         """
         前提：windows上传窗已经出现，sleep1-2秒等待弹出的出现
         :param locator:
@@ -251,11 +251,8 @@ class BasePage:
         else:
             title = ""  # 这里根据其它不同浏览器类型来修改
 
-        self.get_mouse_element_click(locator, img_doc)
-        time.sleep(2)
-
         # 一级窗口“#32770”，“打开”
-        dialog = win32gui.FindWindow('#32770', 'Open')  # 一级窗口
+        dialog = win32gui.FindWindow('#32770', title)  # 一级窗口
         print(dialog)
         # 找到窗口
         ComboxEx32 = win32gui.FindWindowEx(dialog, 0, 'ComboBoxEx32', None)  # 二级
@@ -267,7 +264,7 @@ class BasePage:
         edit = win32gui.FindWindowEx(comboBox, 0, 'Edit', None)  # 四级
         print(edit)
         # 打开按钮
-        button = win32gui.FindWindowEx(dialog, 0, 'Button', 'Open(&0)')  # 四级
+        button = win32gui.FindWindowEx(dialog, 0, 'Button', '打开(&O)')  # 四级
         print(button)
         print('ok')
         time.sleep(2)
@@ -297,7 +294,7 @@ class BasePage:
         else:
             time.sleep(2)
 
-    def get_elements(self, locator, img_doc, timeout=20, frequeny=0.5):
+    def get_elements(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待多个元素可见
         :param locator:
@@ -308,7 +305,7 @@ class BasePage:
         case_log.info("在 {}，等待多个元素{} 可见。".format(img_doc, locator))
         start_time = time.time()
         try:
-            eles = WebDriverWait(self.driver, timeout, frequeny).until(EC.visibility_of_all_elements_located(locator))
+            eles = WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_all_elements_located(locator))
         except Exception as e:
             # 异常截图 - 通过截图名称，知道是哪个页面或者那个模块出错了
             # 异常日志捕获
@@ -319,11 +316,11 @@ class BasePage:
             case_log.info("页面等待多个元素{}可见，等待时间长为：{}s 。".format(locator, round(end_time - start_time, 3)))
             return eles
 
-    def switch_windows(self, img_doc, name=None, frequeny=20):  # 查看窗口跳转源代码
+    def switch_windows(self, img_doc, name=None, frequency=20):  # 查看窗口跳转源代码
         # 等待
         if name is None:
             current_handle = self.driver.current_window_handle
-            WebDriverWait(self.driver, frequeny).until(EC.new_window_is_opened(current_handle))
+            WebDriverWait(self.driver, frequency).until(EC.new_window_is_opened(current_handle))
             handles = self.driver.window_handles
             return self.driver.switch_to.window(handles[-1])
         self.driver.switch_to.window()

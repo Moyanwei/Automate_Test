@@ -56,14 +56,6 @@ def login_driver(init_driver):
     init_driver.quit()
 
 
-# def pytest_configure(config):
-#     # 添加接口地址与项目名称
-#     config._metadata["项目名称"] = "OMS-UI自动化测试项目v1.0"
-#     config._metadata['接口地址'] = 'https://api.sdhwlw.com/'
-#     # 删除Java_Home
-#     config._metadata.pop("JAVA_HOME")
-
-
 @pytest.mark.optionalhook
 def pytest_html_results_summary(prefix):
     prefix.extend([html.p("所属部门: 质量管理部门QA")])

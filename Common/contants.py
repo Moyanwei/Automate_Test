@@ -33,4 +33,4 @@ test_cases_dir = os.path.join(base_dir, "TestCases")   # 测试用例文件目�
 # TestDatas 目录地址
 test_datas_dir = os.path.join(base_dir, "TestDatas")   # 测试数据文件目录
 common_datas_file = os.path.join(test_datas_dir, "common_datas.py")  # 基础数据
-test_file = os.path.join(test_datas_dir, "test.xlsx")   # 上传文件的目录
+# test_file = os.path.join(test_datas_dir, "test.xlsx")   # 上传文件的目录
