@@ -340,13 +340,6 @@ class BasePage:
             self.save_screen_shoot(img_doc)
             raise e
 
-    def scroll(self, ele):
-        overflow = 1
-        for i in range(len(ele)):
-            if not overflow % 6:  # 每看到6个元素就滑动1次
-                driver.execute_script("arguments[0].scrollIntoView();", ele[i])
-            overflow += 1
-
 
 if __name__ == '__main__':  # 测试basepage方法是否正确
     driver = webdriver.Chrome()
