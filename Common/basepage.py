@@ -1,11 +1,13 @@
 # coding: utf-8
 # 1、封装基本关键字，任何一个页面操作都可以实时捕获异常/输入日志/失败截图
-
+import random
 import time
 import win32gui
 import win32con
 import allure
 from datetime import datetime
+
+from pywin.scintilla import document
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.remote.webdriver import WebDriver  # 调用所有的WebDriver对象
 from selenium.webdriver.support.wait import WebDriverWait
@@ -138,10 +140,10 @@ class BasePage:
     def wait_page_contain_element(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待元素存在
+        :param frequency:
         :param locator:
         :param img_doc:截图图片
         :param timeout:
-        :param frequeny:
         :return:
         """
         case_log.info("在 {}，等待元素{}存在。".format(img_doc, locator))
@@ -161,10 +163,10 @@ class BasePage:
     def get_element_txt(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         获取元素文本只要存在就行，不需要可见
+        :param frequency:
         :param locator:
         :param img_doc:截图图片
         :param timeout:
-        :param frequeny:
         :return:
         """
         self.wait_page_contain_element(locator, img_doc, timeout, frequency)
@@ -183,6 +185,9 @@ class BasePage:
     def get_element_select(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待元素可以被选择
+        :param frequency:
+        :param timeout:
+        :param img_doc:
         :param locator:
         :param fqc:
         :return:
@@ -202,6 +207,9 @@ class BasePage:
     def get_frame_element(self, locator, img_doc, timeout=20, frequency=0.5):  # need update
         """
         跳转到iframe
+        :param frequency:
+        :param timeout:
+        :param img_doc:
         :param locator:
         :param eqc:
         :return:
@@ -237,9 +245,8 @@ class BasePage:
     def get_upload_file(self, filePath, browser_type="chrome"):
         """
         前提：windows上传窗已经出现，sleep1-2秒等待弹出的出现
-        :param locator:
-        :param img_doc:截图图片
-        :param files:
+        :param browser_type:
+        :param filePath:
         :return:
         """
         if browser_type.lower() == "chrome":
@@ -253,20 +260,14 @@ class BasePage:
 
         # 一级窗口“#32770”，“打开”
         dialog = win32gui.FindWindow('#32770', title)  # 一级窗口
-        print(dialog)
         # 找到窗口
         ComboxEx32 = win32gui.FindWindowEx(dialog, 0, 'ComboBoxEx32', None)  # 二级
-        print(ComboxEx32)
         # 向下传递
         comboBox = win32gui.FindWindowEx(ComboxEx32, 0, 'ComboBox', None)  # 三级
-        print(comboBox)
         # 编辑按钮
         edit = win32gui.FindWindowEx(comboBox, 0, 'Edit', None)  # 四级
-        print(edit)
         # 打开按钮
         button = win32gui.FindWindowEx(dialog, 0, 'Button', '打开(&O)')  # 四级
-        print(button)
-        print('ok')
         time.sleep(2)
         # 发送文件路径，输入文件的绝对路径，点击“打开”按钮
         win32gui.SendMessage(edit, win32con.WM_SETTEXT, None, filePath)
@@ -297,9 +298,10 @@ class BasePage:
     def get_elements(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待多个元素可见
+        :param frequency:
+        :param img_doc:
         :param locator:
         :param timeout:
-        :param poll_frequency:
         :return:
         """
         case_log.info("在 {}，等待多个元素{} 可见。".format(img_doc, locator))
@@ -339,6 +341,9 @@ class BasePage:
             case_log.error("切换iframe到main页面失败！")
             self.save_screen_shoot(img_doc)
             raise e
+
+    def scroll_bar_slide(self, target):
+        self.driver.execute_script("arguments[0].scrollIntoView();", target)
 
 
 if __name__ == '__main__':  # 测试basepage方法是否正确

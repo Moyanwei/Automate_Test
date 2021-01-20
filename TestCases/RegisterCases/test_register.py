@@ -1,8 +1,6 @@
 # coding: utf-8
 import pytest
 from TestDatas.RegisterDatas import register_datas as REG
-from selenium import webdriver
-from PageObjects.LoginPage.login_page import LoginPage
 
 
 @pytest.mark.usefixtures('register_web')
@@ -11,7 +9,7 @@ class TestRegister:
         """
         注册功能
         :param data: 测试数据
-        :param register_driver: 注册函数
+        :param register_web: 注册函数
         :return:
         步骤：
         登录页面-输入用户名- membMobile: 15649909501

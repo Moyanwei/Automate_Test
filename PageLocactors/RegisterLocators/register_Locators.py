@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+import time
 
 
 class RegisterLocator:
@@ -7,6 +8,7 @@ class RegisterLocator:
     linkMan_loc = (By.XPATH, '//input[@placeholder="输入联系人姓名"]')  # 输入联系人
     contactNumber_loc = (By.XPATH, '//input[@placeholder="输入联系人号码"]')  # 输入联系人号码
     site_loc = (By.XPATH, "//input[@placeholder='选择省/市/区']")  # 地址选择
+    scroll_loc = (By.XPATH, '//div[@id="cascader-menu-9904-0"]/div[@class="el-scrollbar__bar is-vertical"]/div[@class="el-scrollbar__thumb"]')
     province_loc = (By.XPATH, "//li[starts-with(@role,'menuitem')]/span[text()='广西']")  # 省
     city_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='南宁']")  # 市
     district_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='武鸣区']")  # 区

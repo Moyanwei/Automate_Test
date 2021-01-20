@@ -14,7 +14,8 @@ class RegisterPage(BasePage):
         self.upload_file(filename=file_path3, img_doc="身份证反")  # file_path 图片路径
         self.get_element_input_txt(loc.linkMan_loc, "输入联系人", linkMan)
         self.get_element_input_txt(loc.contactNumber_loc, "输入联系人号码", contactNumber)
-        self.get_element_click(loc.site_loc, "地址选择")
+        self.get_element_click(loc.site_loc, img_doc="地址选择")
+        self.scroll_bar_slide(target=loc.scroll_loc)
         self.get_element_click(loc.province_loc, "省")
         self.get_element_click(loc.city_loc, "市")
         self.get_element_click(loc.district_loc, "省")
