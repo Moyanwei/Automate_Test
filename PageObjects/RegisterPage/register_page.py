@@ -15,6 +15,7 @@ class RegisterPage(BasePage):
         self.get_element_input_txt(loc.linkMan_loc, "输入联系人", linkMan)
         self.get_element_input_txt(loc.contactNumber_loc, "输入联系人号码", contactNumber)
         self.get_element_click(loc.site_loc, "地址选择")
+        self.scroll(loc.scroll_loc)
         self.get_element_click(loc.province_loc, "省")
         self.get_element_click(loc.city_loc, "市")
         self.get_element_click(loc.district_loc, "省")
