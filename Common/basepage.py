@@ -40,6 +40,7 @@ class BasePage:
     def wait_element_visible(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待元素可见
+        :param frequency:
         :param locator:
         :param img_doc:截图图片
         :param timeout:
@@ -84,6 +85,7 @@ class BasePage:
         ele = self.get_element(locator, img_doc)
         case_log.info("在 {}，点击元素{}。".format(img_doc, locator))
         try:
+            WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(locator))
             return ele.click()
         except Exception as e:
             case_log.exception("在{}中点击元素，点击元素失败".format(img_doc, locator))
@@ -237,6 +239,8 @@ class BasePage:
     def get_upload_file(self, filePath, browser_type="chrome"):
         """
         前提：windows上传窗已经出现，sleep1-2秒等待弹出的出现
+        :param filePath:
+        :param browser_type:
         :param locator:
         :param img_doc:截图图片
         :param files:
@@ -253,20 +257,14 @@ class BasePage:
 
         # 一级窗口“#32770”，“打开”
         dialog = win32gui.FindWindow('#32770', title)  # 一级窗口
-        print(dialog)
         # 找到窗口
         ComboxEx32 = win32gui.FindWindowEx(dialog, 0, 'ComboBoxEx32', None)  # 二级
-        print(ComboxEx32)
         # 向下传递
         comboBox = win32gui.FindWindowEx(ComboxEx32, 0, 'ComboBox', None)  # 三级
-        print(comboBox)
         # 编辑按钮
         edit = win32gui.FindWindowEx(comboBox, 0, 'Edit', None)  # 四级
-        print(edit)
         # 打开按钮
         button = win32gui.FindWindowEx(dialog, 0, 'Button', '打开(&O)')  # 四级
-        print(button)
-        print('ok')
         time.sleep(2)
         # 发送文件路径，输入文件的绝对路径，点击“打开”按钮
         win32gui.SendMessage(edit, win32con.WM_SETTEXT, None, filePath)
@@ -297,9 +295,10 @@ class BasePage:
     def get_elements(self, locator, img_doc, timeout=20, frequency=0.5):
         """
         等待多个元素可见
+        :param frequency:
+        :param img_doc:
         :param locator:
         :param timeout:
-        :param poll_frequency:
         :return:
         """
         case_log.info("在 {}，等待多个元素{} 可见。".format(img_doc, locator))
@@ -340,12 +339,17 @@ class BasePage:
             self.save_screen_shoot(img_doc)
             raise e
 
-    def scroll(self, ele):
-        overflow = 1
-        for i in range(len(ele)):
-            if not overflow % 6:  # 每看到8个元素就滑动1次
-                driver.execute_script("arguments[0].scrollIntoView();", ele[i])
-            overflow += 1
+    def scroll(self, ele, img_doc):
+        try:
+            overflow = 1
+            for i in range(len(ele)):
+                if not overflow % 6:  # 每看到8个元素就滑动1次
+                    driver.execute_script("arguments[0].scrollIntoView();", ele[i])
+                overflow += 1
+        except Exception as e:
+            case_log.exception("在{}中点击元素，点击元素失败".format(img_doc))
+            self.save_screen_shoot(img_doc)
+            raise e
 
 
 if __name__ == '__main__':  # 测试basepage方法是否正确
