@@ -7,7 +7,7 @@ class LoginPage(BasePage):
     def login(self, membMobile, membPassword):
         self.get_element_input_txt(loc.username_loc, "登录页面 - 输入用户名", membMobile)
         self.get_element_input_txt(loc.password_loc, "登录页面 - 输入密码", membPassword)
-        self.get_element_click(locator=loc.login_btn_loc, img_doc="登陆页面 - 点击登陆按钮")
+        self.get_element_click(loc=loc.login_btn_loc, img_doc="登陆页面 - 点击登陆按钮")
 
     # 获取错误提示
     def get_err(self):

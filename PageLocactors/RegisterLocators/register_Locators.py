@@ -30,3 +30,4 @@ class RegisterLocator:
     linkmanErr_loc = (By.XPATH, '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')  # 联系人不能为空
     contactEerr_loc = (By.XPATH, '//div[@class="_alert_dialog"]/child::p[text()="联系方式不能为空"]')  # 联系方式不能为空
     yyzxErr_loc = (By.XPATH, '//div[@class="_alert_dialog"]/child::p[text()="运营中心不能为空"]')   # 运营中心不能为空
+    toExamine_loc = (By.XPATH, "//div[@id='gc_content']//span[text()='1~3个工作日']")

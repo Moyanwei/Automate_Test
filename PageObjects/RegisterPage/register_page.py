@@ -52,7 +52,7 @@ class RegisterPage(BasePage):
         :return:
         """
         try:
-            self.wait_element_visible(loc.submit_loc, "注册-查看提交按钮是否存在")
+            self.wait_element_visible(loc.toExamine_loc, "注册成功提示信息是否存在")
         except TimeoutError:
             return False
         else:
