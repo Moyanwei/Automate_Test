@@ -26,3 +26,4 @@ def register_web(access_web):
     LoginPage(driver).login(cd['membMobile'], cd['membPassword'])
     Register = RegisterPage(driver)
     yield driver, Register
+    driver.quit()
