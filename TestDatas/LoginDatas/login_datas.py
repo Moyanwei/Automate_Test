@@ -1,7 +1,7 @@
 # 正常场景测试数据
 oms_success_data = [{'membMobile': '15691750516', 'membPassword': 'sdh168168'}]
 
-login_user = {'membMobile': '18958541533', 'membPassword': 'sdh123456'}
+login_user = {'membMobile': '15687679877', 'membPassword': 'sdh123456'}
 
 # 异常场景测试数据
 error_passwordFormat_data = [{'membMobile': '15691750516',

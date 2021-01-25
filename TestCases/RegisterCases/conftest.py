@@ -10,7 +10,7 @@ from TestDatas.CommonDatas import common_datas as ce
 from TestDatas.LoginDatas.login_datas import login_user as cd
 
 
-@pytest.fixture(scope='module')  # 测试继承的关系说明
+@pytest.fixture(scope='class')  # 测试继承的关系说明
 def access_web():
     driver = webdriver.Chrome()
     driver.maximize_window()
@@ -23,7 +23,7 @@ def access_web():
 def register_web(access_web):
     driver = access_web
     driver.get(ce.login_url)
-    LoginPage(driver).login(cd['membMobile'], cd['membPassword'])
+    Login = LoginPage(driver).login(cd['membMobile'], cd['membPassword'])
     Register = RegisterPage(driver)
-    yield driver, Register
+    yield driver, Register, Login
     driver.quit()
