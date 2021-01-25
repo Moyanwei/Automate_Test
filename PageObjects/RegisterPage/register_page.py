@@ -2,8 +2,10 @@ from PageLocactors.RegisterLocators.register_Locators import RegisterLocator as 
 from Common.basepage import BasePage
 import time
 
+
 class RegisterPage(BasePage):
-    def register(self, companyName, LicenseNo, linkMan, contactNumber, detail, invoiceTitle, dutyParagraph, bankOfDeposit, bankAccount, file_path1, file_path2, file_path3):
+    def register(self, companyName, LicenseNo, linkMan, contactNumber, detail, invoiceTitle, dutyParagraph,
+                 bankOfDeposit, bankAccount, file_path1, file_path2, file_path3):
         self.get_element_input_txt(loc.companyName_loc, "输入公司名称", companyName)
         self.get_element_input_txt(loc.LicenseNo_loc, "输入营业执照号", LicenseNo)
         self.get_element_click(loc.uploadOne_loc, "点击上传营业执照图片")
@@ -59,8 +61,3 @@ class RegisterPage(BasePage):
             return False
         else:
             return True
-
-
-
-
-
