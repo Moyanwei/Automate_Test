@@ -8,9 +8,9 @@ class RegisterLocator:
     contactNumber_loc = (By.XPATH, '//input[@placeholder="输入联系人号码"]')  # 输入联系人号码
     site_loc = (By.XPATH, "//input[@placeholder='选择省/市/区']")  # 地址选择
     scroll_loc = (By.XPATH, "//div[@id='cascader-menu-939-0']/div[@class='el-scrollbar__bar is-vertical']/div[@class='el-scrollbar__thumb']")
-    province_loc = (By.XPATH, "//li[starts-with(@role,'menuitem')]/span[text()='浙江']")  # 省
-    city_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='杭州']")  # 市
-    district_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='萧山区']")  # 区
+    province_loc = (By.XPATH, "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")  # 省
+    city_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")  # 市
+    district_loc = (By.XPATH, "//li[starts-with(@role,'menu')]/span[text()='日土县']")  # 区
     detailButton_loc = (By.XPATH, "//input[contains(@placeholder,'详细地址定位')]")  # 详细地址定位
     detail_loc = (By.XPATH, "//input[@id='tipinput']")  # 输入详细地址
     add_address = (By.XPATH, "//button[@class='confirm']")  # 详细地址确定按钮
@@ -18,7 +18,7 @@ class RegisterLocator:
     uploadTwo_loc = (By.XPATH, "//div[@class='avatar']")  # 上传身份证正面
     uploadThree_loc = (By.XPATH, "//div[@class='avatar upimg']")  # 上传身份证反面
     yyzx_loc = (By.XPATH, "//input[@placeholder='请选择运营中心']")  # 选择运营中心
-    xzyy_loc = (By.XPATH, "//div[@class='el-scrollbar']//span[contains(text(),'测试运营中心')]")   # 所属运营中心
+    xzyy_loc = (By.XPATH, "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")   # 所属运营中心
     operating_loc = (By.XPATH, "//div[@class='el-select']//input[@placeholder='请选择']")   # 运营范围
     specialLine_loc = (By.XPATH, "//span[contains(text(),'专线运输')]")  # 专线运输
     invoiceTitle_loc = (By.XPATH, '//input[@placeholder="输入发票抬头"]')  # 输入发票抬头
