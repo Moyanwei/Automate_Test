@@ -1,5 +1,6 @@
 from PageLocactors.RegisterLocators.register_Locators import RegisterLocator as loc
 from Common.basepage import BasePage
+import time
 
 
 class RegisterPage(BasePage):
@@ -17,14 +18,20 @@ class RegisterPage(BasePage):
         self.get_element_click(loc.site_loc, "地址选择")
         self.scroll(loc.scroll_loc, "滚动地址选择")
         self.get_element_click(loc.province_loc, "省")
+        time.sleep(2)
         self.get_element_click(loc.city_loc, "市")
-        self.get_element_click(loc.district_loc, "省")
+        time.sleep(2)
+        self.get_element_click(loc.district_loc, "区")
+        time.sleep(2)
         self.get_element_click(loc.detailButton_loc, "详细地址定位")
         self.get_element_input_txt(loc.detail_loc, "输入详细地址", detail)
+        time.sleep(2)
         self.get_element_click(loc.add_address, "详细地址确定按钮")
         self.get_element_click(loc.yyzx_loc, "选择运营中心")
+        time.sleep(2)
         self.get_element_click(loc.xzyy_loc, "测试运营中心")
         self.get_element_click(loc.operating_loc, "运营范围")
+        time.sleep(2)
         self.get_element_click(loc.specialLine_loc, "专线运输")
         self.get_element_input_txt(loc.invoiceTitle_loc, "输入发票抬头", invoiceTitle)
         self.get_element_input_txt(loc.dutyParagraph_loc, "输入税号", dutyParagraph)
