@@ -14,6 +14,7 @@ class TestRegister:
                                  REG.abnormal_data['file_path2'], REG.abnormal_data['file_path3'])
         assert REG.abnormal_data['errorMsg'] == register_web[1].get_err()
 
+    @pytest.fixture()
     def test_register02(self, register_web):
         """
         注册功能
@@ -34,4 +35,3 @@ class TestRegister:
                                  REG.normal_data['bankAccount'], REG.normal_data['file_path1'],
                                  REG.normal_data['file_path2'], REG.normal_data['file_path3'])
         assert register_web[1].submit_is_exist()
-
