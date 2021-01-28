@@ -18,28 +18,37 @@ class TestRegister:
      断言-首页-获取注册界面（提交）按钮元素，确认元素是否存在
     """
     def test_register01(self, register_web):
-        register_web[1].register(REG.abnormal_data['companyName'], REG.abnormal_data['LicenseNo'],
-                                 REG.abnormal_data['linkMan'], REG.abnormal_data['contactNumber'],
-                                 REG.abnormal_data['detail'], REG.abnormal_data['invoiceTitle'],
-                                 REG.abnormal_data['dutyParagraph'], REG.abnormal_data['bankOfDeposit'],
-                                 REG.abnormal_data['bankAccount'], REG.abnormal_data['file_path1'],
-                                 REG.abnormal_data['file_path2'], REG.abnormal_data['file_path3'])
-        assert REG.abnormal_data['errorMsg'] == register_web[1].get_err()
+        register_web[1].register(REG.ContactNone_data['companyName'], REG.ContactNone_data['LicenseNo'],
+                                 REG.ContactNone_data['linkMan'], REG.ContactNone_data['contactNumber'],
+                                 REG.ContactNone_data['detail'], REG.ContactNone_data['invoiceTitle'],
+                                 REG.ContactNone_data['dutyParagraph'], REG.ContactNone_data['bankOfDeposit'],
+                                 REG.ContactNone_data['bankAccount'], REG.ContactNone_data['file_path1'],
+                                 REG.ContactNone_data['file_path2'], REG.ContactNone_data['file_path3'])
+        assert REG.ContactNone_data['errorMsg'] == register_web[1].Contact_err()
 
     def test_register02(self, register_web):
-        register_web[1].register(REG.normal_data['companyName'], REG.normal_data['LicenseNo'],
-                                 REG.normal_data['linkMan'], REG.normal_data['contactNumber'],
-                                 REG.normal_data['detail'], REG.normal_data['invoiceTitle'],
-                                 REG.normal_data['dutyParagraph'], REG.normal_data['bankOfDeposit'],
-                                 REG.normal_data['bankAccount'], REG.normal_data['file_path1'],
-                                 REG.normal_data['file_path2'], REG.normal_data['file_path3'])
-        assert register_web[1].submit_is_exist()
+        register_web[1].register(REG.ContactPhoneNone_data['companyName'], REG.ContactPhoneNone_data['LicenseNo'],
+                                 REG.ContactPhoneNone_data['linkMan'], REG.ContactPhoneNone_data['contactNumber'],
+                                 REG.ContactPhoneNone_data['detail'], REG.ContactPhoneNone_data['invoiceTitle'],
+                                 REG.ContactPhoneNone_data['dutyParagraph'], REG.ContactPhoneNone_data['bankOfDeposit'],
+                                 REG.ContactPhoneNone_data['bankAccount'], REG.ContactPhoneNone_data['file_path1'],
+                                 REG.ContactPhoneNone_data['file_path2'], REG.ContactPhoneNone_data['file_path3'])
+        assert REG.ContactPhoneNone_data['errorMsg'] == register_web[1].ContactPhone_err()
+
+    def test_register03(self, register_web):
+        register_web[1].registerxYyzx_None(REG.YyzxNone_data['companyName'], REG.YyzxNone_data['LicenseNo'],
+                                           REG.YyzxNone_data['linkMan'], REG.YyzxNone_data['contactNumber'],
+                                           REG.YyzxNone_data['detail'], REG.YyzxNone_data['invoiceTitle'],
+                                           REG.YyzxNone_data['dutyParagraph'], REG.YyzxNone_data['bankOfDeposit'],
+                                           REG.YyzxNone_data['bankAccount'], REG.YyzxNone_data['file_path1'],
+                                           REG.YyzxNone_data['file_path2'], REG.YyzxNone_data['file_path3'])
+        assert REG.YyzxNone_data['errorMsg'] == register_web[1].ContactPhone_err()
 
     def test_register04(self, register_web):
-        register_web[1].registerxYyzx_None(REG.yyzxNone_data['companyName'], REG.yyzxNone_data['LicenseNo'],
-                                           REG.yyzxNone_data['linkMan'], REG.yyzxNone_data['contactNumber'],
-                                           REG.yyzxNone_data['detail'], REG.yyzxNone_data['invoiceTitle'],
-                                           REG.yyzxNone_data['dutyParagraph'], REG.yyzxNone_data['bankOfDeposit'],
-                                           REG.yyzxNone_data['bankAccount'], REG.yyzxNone_data['file_path1'],
-                                           REG.yyzxNone_data['file_path2'], REG.yyzxNone_data['file_path3'])
-        assert REG.yyzxNone_data['errorMsg'] == register_web[1].get_err()
+        register_web[1].register(REG.Normal_data['companyName'], REG.Normal_data['LicenseNo'],
+                                 REG.Normal_data['linkMan'], REG.Normal_data['contactNumber'],
+                                 REG.Normal_data['detail'], REG.Normal_data['invoiceTitle'],
+                                 REG.Normal_data['dutyParagraph'], REG.Normal_data['bankOfDeposit'],
+                                 REG.Normal_data['bankAccount'], REG.Normal_data['file_path1'],
+                                 REG.Normal_data['file_path2'], REG.Normal_data['file_path3'])
+        assert register_web[1].submit_is_exist()

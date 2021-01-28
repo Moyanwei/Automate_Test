@@ -11672,3 +11672,1159 @@ selenium.common.exceptions.TimeoutException: Message:
 [2021-01-26 00:42:42,071] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
 [2021-01-26 00:42:42,116] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 注册成功提示信息是否存在 ，等待元素 ('xpath', "//div[@id='gc_content']//span[text()='1~3个工作日']") 可见。
 [2021-01-26 00:42:42,658] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@id='gc_content']//span[text()='1~3个工作日']")等待存在,等待时间长为：0.542s 。
+[2021-01-28 23:53:50,456] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-28 23:53:50,480] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.025s 。
+[2021-01-28 23:53:50,480] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-28 23:53:50,487] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-28 23:53:50,487] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541999。
+[2021-01-28 23:53:50,582] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-28 23:53:50,604] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.022s 。
+[2021-01-28 23:53:50,604] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-28 23:53:50,610] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.006s 。
+[2021-01-28 23:53:50,611] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-28 23:53:50,681] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-28 23:53:50,698] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.018s 。
+[2021-01-28 23:53:50,698] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-28 23:53:50,704] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-01-28 23:53:50,704] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-28 23:53:50,745] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:05:15,529] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:05:15,584] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.052s 。
+[2021-01-29 00:05:15,584] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:05:15,585] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.001s 。
+[2021-01-29 00:05:15,585] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:05:15,685] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:05:15,707] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:05:15,707] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:05:15,714] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:05:15,714] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:05:15,785] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:05:15,802] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.016s 。
+[2021-01-29 00:05:15,802] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:05:15,806] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.004s 。
+[2021-01-29 00:05:15,807] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:05:15,848] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:05:16,471] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.623s 。
+[2021-01-29 00:05:16,471] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:05:16,478] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:05:16,478] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 00:05:16,626] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:05:16,644] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:05:16,644] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:05:16,651] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:05:16,651] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:05:16,772] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:05:16,789] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:05:16,789] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:05:16,795] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:05:16,795] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:05:16,837] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:05:26,948] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:05:26,970] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:05:26,970] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:05:26,970] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:05:26,970] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:05:27,025] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:05:37,150] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:05:37,165] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:05:37,165] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:05:37,181] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:05:37,181] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:05:37,238] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:05:47,324] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:05:47,347] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:05:47,347] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:05:47,347] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:05:47,347] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：。
+[2021-01-29 00:05:47,408] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:05:47,419] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.011s 。
+[2021-01-29 00:05:47,419] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:05:47,434] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.014s 。
+[2021-01-29 00:05:47,434] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13080122340。
+[2021-01-29 00:05:47,542] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:05:47,563] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:05:47,564] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:05:47,571] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:05:47,571] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:05:47,665] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:05:47,687] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:05:47,687] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:05:47,694] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:05:47,694] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:05:48,793] - [ERROR] - [basepage.py] - [line: 91] - [OMS] - [日志信息]: 在省中点击元素，点击元素失败
+Traceback (most recent call last):
+  File "D:\Item_set\Automate_Test\Common\basepage.py", line 89, in get_element_click
+    return ele.click()
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="el-cascader-node__label">...</span> is not clickable at point (508, 633). Other element would receive the click: <input type="text" autocomplete="off" placeholder="选择省/市/区" class="el-input__inner" aria-expanded="true">
+  (Session info: chrome=88.0.4324.104)
+
+[2021-01-29 00:05:49,448] - [INFO] - [basepage.py] - [line: 38] - [OMS] - [日志信息]: 页面截图成功文件保存在：D:\Item_set\Automate_Test\OutPuts\screenshots/202101290005_省.png
+[2021-01-29 00:07:31,344] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:07:31,368] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.024s 。
+[2021-01-29 00:07:31,368] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:07:31,375] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:07:31,375] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:07:31,471] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:07:31,493] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:07:31,493] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:07:31,500] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:07:31,500] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:07:31,577] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:07:31,595] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:07:31,595] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:07:31,601] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:07:31,601] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:07:31,644] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:07:32,214] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.568s 。
+[2021-01-29 00:07:32,214] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:07:32,220] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:07:32,221] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 00:07:32,386] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:07:32,405] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:07:32,405] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:07:32,410] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:07:32,410] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:07:32,532] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:07:32,550] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:07:32,550] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:07:32,556] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:07:32,556] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:07:32,600] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:07:42,736] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:07:42,766] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.031s 。
+[2021-01-29 00:07:42,766] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:07:42,782] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:07:42,782] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:07:42,882] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:07:52,954] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:07:52,968] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.014s 。
+[2021-01-29 00:07:52,968] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:07:52,984] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:07:52,984] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:07:53,032] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:08:03,139] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:08:03,154] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:08:03,154] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:08:03,169] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:08:03,169] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：。
+[2021-01-29 00:08:03,212] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:08:03,229] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:08:03,229] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:08:03,233] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.004s 。
+[2021-01-29 00:08:03,234] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13080122340。
+[2021-01-29 00:08:03,343] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:08:03,362] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:08:03,362] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:08:03,369] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:08:03,370] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:08:03,458] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:08:03,480] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:08:03,480] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:08:03,487] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:08:03,487] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:08:04,574] - [ERROR] - [basepage.py] - [line: 91] - [OMS] - [日志信息]: 在省中点击元素，点击元素失败
+Traceback (most recent call last):
+  File "D:\Item_set\Automate_Test\Common\basepage.py", line 89, in get_element_click
+    return ele.click()
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="el-cascader-node__label">...</span> is not clickable at point (508, 617). Other element would receive the click: <div data-v-49d0b695="" id="wl_content">...</div>
+  (Session info: chrome=88.0.4324.104)
+
+[2021-01-29 00:08:05,139] - [INFO] - [basepage.py] - [line: 38] - [OMS] - [日志信息]: 页面截图成功文件保存在：D:\Item_set\Automate_Test\OutPuts\screenshots/202101290008_省.png
+[2021-01-29 00:10:52,857] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:10:52,908] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.05s 。
+[2021-01-29 00:10:52,908] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:10:52,908] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:10:52,908] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:10:53,035] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:10:53,056] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:10:53,057] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:10:53,064] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:10:53,064] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:10:53,129] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:10:53,146] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.016s 。
+[2021-01-29 00:10:53,146] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:10:53,151] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.004s 。
+[2021-01-29 00:10:53,151] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:10:53,190] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:10:53,786] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.595s 。
+[2021-01-29 00:10:53,786] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:10:53,793] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:10:53,793] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 00:10:53,938] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:10:53,957] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:10:53,957] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:10:53,964] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:10:53,964] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:10:54,088] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:10:54,104] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.016s 。
+[2021-01-29 00:10:54,104] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:10:54,110] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:10:54,110] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:10:54,171] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:11:04,288] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:11:04,310] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:11:04,310] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:11:04,310] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:11:04,310] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:11:04,363] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:11:14,448] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:11:14,469] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:11:14,469] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:11:14,485] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:11:14,485] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:11:14,562] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:11:24,639] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:11:24,702] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.063s 。
+[2021-01-29 00:11:24,702] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:11:24,718] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:11:24,718] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：。
+[2021-01-29 00:11:24,766] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:11:24,785] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:11:24,785] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:11:24,791] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:11:24,791] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13080122340。
+[2021-01-29 00:11:24,902] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:11:24,922] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:11:24,923] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:11:24,930] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:11:24,930] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:11:25,029] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:11:25,050] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:11:25,050] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:11:25,057] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:11:25,057] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:11:26,126] - [ERROR] - [basepage.py] - [line: 91] - [OMS] - [日志信息]: 在省中点击元素，点击元素失败
+Traceback (most recent call last):
+  File "D:\Item_set\Automate_Test\Common\basepage.py", line 89, in get_element_click
+    return ele.click()
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="el-cascader-node__label">...</span> is not clickable at point (508, 617). Other element would receive the click: <div data-v-49d0b695="" id="wl_content">...</div>
+  (Session info: chrome=88.0.4324.104)
+
+[2021-01-29 00:11:26,731] - [INFO] - [basepage.py] - [line: 38] - [OMS] - [日志信息]: 页面截图成功文件保存在：D:\Item_set\Automate_Test\OutPuts\screenshots/202101290011_省.png
+[2021-01-29 00:14:04,459] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:14:04,512] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.052s 。
+[2021-01-29 00:14:04,512] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:14:04,512] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:14:04,512] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:14:04,637] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:14:04,659] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:14:04,659] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:14:04,666] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:14:04,666] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:14:04,737] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:14:04,754] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:14:04,754] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:14:04,759] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:14:04,759] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:14:04,801] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:14:05,377] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.576s 。
+[2021-01-29 00:14:05,377] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:14:05,384] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:14:05,384] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 00:14:05,534] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:14:05,554] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:14:05,554] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:14:05,560] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:14:05,560] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:14:05,684] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:14:05,702] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:14:05,702] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:14:05,708] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:14:05,708] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:14:05,751] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:14:15,847] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:14:15,861] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.013s 。
+[2021-01-29 00:14:15,861] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:14:15,879] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.018s 。
+[2021-01-29 00:14:15,879] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:14:15,920] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:14:26,039] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:14:26,069] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.031s 。
+[2021-01-29 00:14:26,069] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:14:26,085] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:14:26,085] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:14:26,197] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:14:36,329] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:14:36,376] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.046s 。
+[2021-01-29 00:14:36,376] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:14:36,391] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:14:36,391] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：。
+[2021-01-29 00:14:36,491] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:14:36,508] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:14:36,508] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:14:36,513] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.004s 。
+[2021-01-29 00:14:36,513] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13080122340。
+[2021-01-29 00:14:36,620] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:14:36,641] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:14:36,641] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:14:36,648] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:14:36,649] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:14:38,761] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:14:38,807] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.046s 。
+[2021-01-29 00:14:38,807] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:14:38,823] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:14:38,823] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:14:38,894] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 市 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']") 可见。
+[2021-01-29 00:14:38,913] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:14:38,914] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 市, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")可见。
+[2021-01-29 00:14:38,921] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:14:38,921] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 市，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")。
+[2021-01-29 00:14:40,980] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 区 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']") 可见。
+[2021-01-29 00:14:40,996] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:14:40,996] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 区, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")可见。
+[2021-01-29 00:14:41,011] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:14:41,011] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 区，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")。
+[2021-01-29 00:14:43,130] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址定位 ，等待元素 ('xpath', "//input[contains(@placeholder,'详细地址定位')]") 可见。
+[2021-01-29 00:14:43,144] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:14:43,144] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址定位, 查找元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")可见。
+[2021-01-29 00:14:43,160] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:14:43,160] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址定位，点击元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")。
+[2021-01-29 00:14:43,234] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入详细地址 ，等待元素 ('xpath', "//input[@id='tipinput']") 可见。
+[2021-01-29 00:14:43,258] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")等待存在,等待时间长为：0.024s 。
+[2021-01-29 00:14:43,258] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入详细地址, 查找元素('xpath', "//input[@id='tipinput']")可见。
+[2021-01-29 00:14:43,267] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")查找存在，等待时间长为：0.01s 。
+[2021-01-29 00:14:43,267] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入详细地址，对元素('xpath', "//input[@id='tipinput']")输入内容：日土镇。
+[2021-01-29 00:14:46,333] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址确定按钮 ，等待元素 ('xpath', "//button[@class='confirm']") 可见。
+[2021-01-29 00:14:46,365] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")等待存在,等待时间长为：0.032s 。
+[2021-01-29 00:14:46,365] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址确定按钮, 查找元素('xpath', "//button[@class='confirm']")可见。
+[2021-01-29 00:14:46,365] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:14:46,365] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址确定按钮，点击元素('xpath', "//button[@class='confirm']")。
+[2021-01-29 00:14:46,440] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 选择运营中心 ，等待元素 ('xpath', "//input[@placeholder='请选择运营中心']") 可见。
+[2021-01-29 00:14:46,459] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:14:46,459] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 选择运营中心, 查找元素('xpath', "//input[@placeholder='请选择运营中心']")可见。
+[2021-01-29 00:14:46,465] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:14:46,465] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 选择运营中心，点击元素('xpath', "//input[@placeholder='请选择运营中心']")。
+[2021-01-29 00:14:46,535] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 西藏运营中心 ，等待元素 ('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]") 可见。
+[2021-01-29 00:14:46,556] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:14:46,556] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 西藏运营中心, 查找元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")可见。
+[2021-01-29 00:14:46,562] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:14:46,562] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 西藏运营中心，点击元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")。
+[2021-01-29 00:14:48,626] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 运营范围 ，等待元素 ('xpath', "//div[@class='el-select']//input[@placeholder='请选择']") 可见。
+[2021-01-29 00:14:48,673] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")等待存在,等待时间长为：0.046s 。
+[2021-01-29 00:14:48,673] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 运营范围, 查找元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")可见。
+[2021-01-29 00:14:48,673] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:14:48,673] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 运营范围，点击元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")。
+[2021-01-29 00:14:48,735] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 专线运输 ，等待元素 ('xpath', "//span[contains(text(),'专线运输')]") 可见。
+[2021-01-29 00:14:49,303] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")等待存在,等待时间长为：0.568s 。
+[2021-01-29 00:14:49,303] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 专线运输, 查找元素('xpath', "//span[contains(text(),'专线运输')]")可见。
+[2021-01-29 00:14:49,321] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")查找存在，等待时间长为：0.017s 。
+[2021-01-29 00:14:49,321] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 专线运输，点击元素('xpath', "//span[contains(text(),'专线运输')]")。
+[2021-01-29 00:14:49,399] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入发票抬头 ，等待元素 ('xpath', '//input[@placeholder="输入发票抬头"]') 可见。
+[2021-01-29 00:14:49,419] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:14:49,419] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入发票抬头, 查找元素('xpath', '//input[@placeholder="输入发票抬头"]')可见。
+[2021-01-29 00:14:49,425] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:14:49,425] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入发票抬头，对元素('xpath', '//input[@placeholder="输入发票抬头"]')输入内容：测试公司。
+[2021-01-29 00:14:49,499] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入税号 ，等待元素 ('xpath', '//input[@placeholder="输入税号"]') 可见。
+[2021-01-29 00:14:49,517] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:14:49,517] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入税号, 查找元素('xpath', '//input[@placeholder="输入税号"]')可见。
+[2021-01-29 00:14:49,524] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:14:49,524] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入税号，对元素('xpath', '//input[@placeholder="输入税号"]')输入内容：23233555533121。
+[2021-01-29 00:14:49,663] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入开户行 ，等待元素 ('xpath', '//input[@placeholder="输入开户行"]') 可见。
+[2021-01-29 00:14:49,681] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:14:49,681] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入开户行, 查找元素('xpath', '//input[@placeholder="输入开户行"]')可见。
+[2021-01-29 00:14:49,687] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:14:49,687] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入开户行，对元素('xpath', '//input[@placeholder="输入开户行"]')输入内容：中国农业银行。
+[2021-01-29 00:14:49,774] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入银行账号 ，等待元素 ('xpath', '//input[@placeholder="输入银行账号"]') 可见。
+[2021-01-29 00:14:49,793] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:14:49,793] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入银行账号, 查找元素('xpath', '//input[@placeholder="输入银行账号"]')可见。
+[2021-01-29 00:14:49,800] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:14:49,800] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入银行账号，对元素('xpath', '//input[@placeholder="输入银行账号"]')输入内容：546456111114554322。
+[2021-01-29 00:14:49,934] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 提交 ，等待元素 ('xpath', '//button[@ class="upBtn"]') 可见。
+[2021-01-29 00:14:49,976] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')等待存在,等待时间长为：0.042s 。
+[2021-01-29 00:14:49,976] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 提交, 查找元素('xpath', '//button[@ class="upBtn"]')可见。
+[2021-01-29 00:14:49,994] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')查找存在，等待时间长为：0.018s 。
+[2021-01-29 00:14:49,994] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
+[2021-01-29 00:23:57,539] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:23:57,577] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.037s 。
+[2021-01-29 00:23:57,577] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:23:57,583] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:23:57,583] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:23:57,674] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:23:57,697] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:23:57,697] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:23:57,703] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:23:57,703] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:23:57,769] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:23:57,787] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:23:57,787] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:23:57,792] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:23:57,792] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:23:57,833] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:23:58,397] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.563s 。
+[2021-01-29 00:23:58,397] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:23:58,404] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:23:58,404] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 00:23:58,548] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:23:58,569] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:23:58,569] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:23:58,575] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:23:58,575] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:23:58,695] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:23:58,712] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:23:58,712] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:23:58,718] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:23:58,718] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:23:58,757] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:24:08,872] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:24:08,890] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:24:08,890] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:24:08,906] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:08,906] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:24:08,978] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:24:19,136] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:24:19,152] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.016s 。
+[2021-01-29 00:24:19,152] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:24:19,167] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:19,167] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:24:19,240] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:24:29,322] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:24:29,337] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:24:29,337] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:24:29,353] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:29,353] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：。
+[2021-01-29 00:24:29,407] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:24:29,421] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.013s 。
+[2021-01-29 00:24:29,421] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:24:29,421] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:24:29,421] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13080122340。
+[2021-01-29 00:24:29,538] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:24:29,557] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:24:29,557] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:24:29,564] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:24:29,564] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:24:31,656] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:24:31,671] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:24:31,671] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:24:31,686] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:31,686] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:24:31,750] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 市 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']") 可见。
+[2021-01-29 00:24:31,769] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:24:31,769] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 市, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")可见。
+[2021-01-29 00:24:31,776] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:24:31,776] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 市，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")。
+[2021-01-29 00:24:33,849] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 区 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']") 可见。
+[2021-01-29 00:24:33,864] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")等待存在,等待时间长为：0.016s 。
+[2021-01-29 00:24:33,864] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 区, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")可见。
+[2021-01-29 00:24:33,864] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:24:33,880] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 区，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")。
+[2021-01-29 00:24:35,980] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址定位 ，等待元素 ('xpath', "//input[contains(@placeholder,'详细地址定位')]") 可见。
+[2021-01-29 00:24:35,995] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:24:35,995] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址定位, 查找元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")可见。
+[2021-01-29 00:24:36,011] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:36,011] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址定位，点击元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")。
+[2021-01-29 00:24:36,090] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入详细地址 ，等待元素 ('xpath', "//input[@id='tipinput']") 可见。
+[2021-01-29 00:24:36,111] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:24:36,111] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入详细地址, 查找元素('xpath', "//input[@id='tipinput']")可见。
+[2021-01-29 00:24:36,120] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")查找存在，等待时间长为：0.009s 。
+[2021-01-29 00:24:36,120] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入详细地址，对元素('xpath', "//input[@id='tipinput']")输入内容：日土镇。
+[2021-01-29 00:24:39,194] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址确定按钮 ，等待元素 ('xpath', "//button[@class='confirm']") 可见。
+[2021-01-29 00:24:39,209] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:24:39,209] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址确定按钮, 查找元素('xpath', "//button[@class='confirm']")可见。
+[2021-01-29 00:24:39,224] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:39,224] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址确定按钮，点击元素('xpath', "//button[@class='confirm']")。
+[2021-01-29 00:24:39,289] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 选择运营中心 ，等待元素 ('xpath', "//input[@placeholder='请选择运营中心']") 可见。
+[2021-01-29 00:24:39,307] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:24:39,307] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 选择运营中心, 查找元素('xpath', "//input[@placeholder='请选择运营中心']")可见。
+[2021-01-29 00:24:39,314] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:24:39,314] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 选择运营中心，点击元素('xpath', "//input[@placeholder='请选择运营中心']")。
+[2021-01-29 00:24:39,375] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 西藏运营中心 ，等待元素 ('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]") 可见。
+[2021-01-29 00:24:39,955] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")等待存在,等待时间长为：0.58s 。
+[2021-01-29 00:24:39,955] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 西藏运营中心, 查找元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")可见。
+[2021-01-29 00:24:39,971] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:39,971] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 西藏运营中心，点击元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")。
+[2021-01-29 00:24:42,044] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 运营范围 ，等待元素 ('xpath', "//div[@class='el-select']//input[@placeholder='请选择']") 可见。
+[2021-01-29 00:24:42,059] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:24:42,059] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 运营范围, 查找元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")可见。
+[2021-01-29 00:24:42,059] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:24:42,059] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 运营范围，点击元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")。
+[2021-01-29 00:24:42,129] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 专线运输 ，等待元素 ('xpath', "//span[contains(text(),'专线运输')]") 可见。
+[2021-01-29 00:24:42,715] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")等待存在,等待时间长为：0.585s 。
+[2021-01-29 00:24:42,715] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 专线运输, 查找元素('xpath', "//span[contains(text(),'专线运输')]")可见。
+[2021-01-29 00:24:42,730] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:24:42,730] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 专线运输，点击元素('xpath', "//span[contains(text(),'专线运输')]")。
+[2021-01-29 00:24:42,844] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入发票抬头 ，等待元素 ('xpath', '//input[@placeholder="输入发票抬头"]') 可见。
+[2021-01-29 00:24:42,872] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')等待存在,等待时间长为：0.028s 。
+[2021-01-29 00:24:42,872] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入发票抬头, 查找元素('xpath', '//input[@placeholder="输入发票抬头"]')可见。
+[2021-01-29 00:24:42,879] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:24:42,879] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入发票抬头，对元素('xpath', '//input[@placeholder="输入发票抬头"]')输入内容：测试公司。
+[2021-01-29 00:24:42,955] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入税号 ，等待元素 ('xpath', '//input[@placeholder="输入税号"]') 可见。
+[2021-01-29 00:24:42,973] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:24:42,973] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入税号, 查找元素('xpath', '//input[@placeholder="输入税号"]')可见。
+[2021-01-29 00:24:42,980] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:24:42,980] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入税号，对元素('xpath', '//input[@placeholder="输入税号"]')输入内容：23233555533121。
+[2021-01-29 00:24:43,146] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入开户行 ，等待元素 ('xpath', '//input[@placeholder="输入开户行"]') 可见。
+[2021-01-29 00:24:43,175] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')等待存在,等待时间长为：0.028s 。
+[2021-01-29 00:24:43,175] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入开户行, 查找元素('xpath', '//input[@placeholder="输入开户行"]')可见。
+[2021-01-29 00:24:43,182] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:24:43,182] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入开户行，对元素('xpath', '//input[@placeholder="输入开户行"]')输入内容：中国农业银行。
+[2021-01-29 00:24:43,263] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入银行账号 ，等待元素 ('xpath', '//input[@placeholder="输入银行账号"]') 可见。
+[2021-01-29 00:24:43,284] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:24:43,284] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入银行账号, 查找元素('xpath', '//input[@placeholder="输入银行账号"]')可见。
+[2021-01-29 00:24:43,291] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:24:43,291] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入银行账号，对元素('xpath', '//input[@placeholder="输入银行账号"]')输入内容：546456111114554322。
+[2021-01-29 00:24:43,420] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 提交 ，等待元素 ('xpath', '//button[@ class="upBtn"]') 可见。
+[2021-01-29 00:24:43,437] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:24:43,437] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 提交, 查找元素('xpath', '//button[@ class="upBtn"]')可见。
+[2021-01-29 00:24:43,444] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:24:43,444] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
+[2021-01-29 00:24:43,490] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空，等待元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')存在。
+[2021-01-29 00:24:44,027] - [INFO] - [basepage.py] - [line: 160] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')等待存在,等待时间长为：0.537s 。
+[2021-01-29 00:24:44,027] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空, 查找元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')可见。
+[2021-01-29 00:24:44,049] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')查找存在，等待时间长为：0.021s 。
+[2021-01-29 00:24:44,049] - [INFO] - [basepage.py] - [line: 174] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空 ，获取元素文本内容： ('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]') 。
+[2021-01-29 00:24:44,083] - [INFO] - [basepage.py] - [line: 182] - [OMS] - [日志信息]: 获取元素文本内容为：联系人不能为空 
+[2021-01-29 00:25:05,288] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:25:05,339] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.051s 。
+[2021-01-29 00:25:05,339] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:25:05,339] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:25:05,355] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:25:05,474] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:25:05,496] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.023s 。
+[2021-01-29 00:25:05,496] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:25:05,503] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:05,503] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:25:05,573] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:25:05,591] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:25:05,591] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:25:05,596] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:25:05,596] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:25:05,638] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:25:06,199] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.562s 。
+[2021-01-29 00:25:06,200] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:25:06,206] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:25:06,206] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 00:25:06,357] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:25:06,376] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:25:06,376] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:25:06,382] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:25:06,382] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:25:06,504] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:25:06,521] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:25:06,521] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:25:06,528] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:06,528] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:25:06,570] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:25:16,692] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:25:16,707] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:25:16,707] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:25:16,722] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:25:16,722] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:25:16,764] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:25:26,871] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:25:26,917] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.046s 。
+[2021-01-29 00:25:26,917] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:25:26,933] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:25:26,933] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:25:27,032] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:25:37,092] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:25:37,113] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:25:37,113] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:25:37,129] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:25:37,129] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：李己。
+[2021-01-29 00:25:37,196] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:25:37,214] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:25:37,214] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:25:37,221] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.008s 。
+[2021-01-29 00:25:37,221] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：。
+[2021-01-29 00:25:37,259] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:25:37,290] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.03s 。
+[2021-01-29 00:25:37,290] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:25:37,297] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:37,297] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:25:39,392] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:25:39,407] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:25:39,407] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:25:39,423] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:25:39,423] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:25:39,488] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 市 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']") 可见。
+[2021-01-29 00:25:39,507] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:25:39,507] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 市, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")可见。
+[2021-01-29 00:25:39,514] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:39,514] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 市，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")。
+[2021-01-29 00:25:41,584] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 区 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']") 可见。
+[2021-01-29 00:25:41,600] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:25:41,600] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 区, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")可见。
+[2021-01-29 00:25:41,615] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:25:41,615] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 区，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")。
+[2021-01-29 00:25:43,718] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址定位 ，等待元素 ('xpath', "//input[contains(@placeholder,'详细地址定位')]") 可见。
+[2021-01-29 00:25:43,733] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:25:43,733] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址定位, 查找元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")可见。
+[2021-01-29 00:25:43,749] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:25:43,749] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址定位，点击元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")。
+[2021-01-29 00:25:43,827] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入详细地址 ，等待元素 ('xpath', "//input[@id='tipinput']") 可见。
+[2021-01-29 00:25:43,847] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:25:43,848] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入详细地址, 查找元素('xpath', "//input[@id='tipinput']")可见。
+[2021-01-29 00:25:43,856] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")查找存在，等待时间长为：0.008s 。
+[2021-01-29 00:25:43,856] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入详细地址，对元素('xpath', "//input[@id='tipinput']")输入内容：日土镇。
+[2021-01-29 00:25:46,923] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址确定按钮 ，等待元素 ('xpath', "//button[@class='confirm']") 可见。
+[2021-01-29 00:25:46,986] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")等待存在,等待时间长为：0.063s 。
+[2021-01-29 00:25:46,986] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址确定按钮, 查找元素('xpath', "//button[@class='confirm']")可见。
+[2021-01-29 00:25:47,002] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:25:47,002] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址确定按钮，点击元素('xpath', "//button[@class='confirm']")。
+[2021-01-29 00:25:47,105] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 选择运营中心 ，等待元素 ('xpath', "//input[@placeholder='请选择运营中心']") 可见。
+[2021-01-29 00:25:47,123] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:25:47,123] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 选择运营中心, 查找元素('xpath', "//input[@placeholder='请选择运营中心']")可见。
+[2021-01-29 00:25:47,129] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:25:47,129] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 选择运营中心，点击元素('xpath', "//input[@placeholder='请选择运营中心']")。
+[2021-01-29 00:25:47,192] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 西藏运营中心 ，等待元素 ('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]") 可见。
+[2021-01-29 00:25:47,760] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")等待存在,等待时间长为：0.568s 。
+[2021-01-29 00:25:47,760] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 西藏运营中心, 查找元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")可见。
+[2021-01-29 00:25:47,775] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:25:47,775] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 西藏运营中心，点击元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")。
+[2021-01-29 00:25:49,870] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 运营范围 ，等待元素 ('xpath', "//div[@class='el-select']//input[@placeholder='请选择']") 可见。
+[2021-01-29 00:25:49,885] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:25:49,885] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 运营范围, 查找元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")可见。
+[2021-01-29 00:25:49,902] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")查找存在，等待时间长为：0.017s 。
+[2021-01-29 00:25:49,902] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 运营范围，点击元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")。
+[2021-01-29 00:25:49,965] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 专线运输 ，等待元素 ('xpath', "//span[contains(text(),'专线运输')]") 可见。
+[2021-01-29 00:25:50,532] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")等待存在,等待时间长为：0.567s 。
+[2021-01-29 00:25:50,532] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 专线运输, 查找元素('xpath', "//span[contains(text(),'专线运输')]")可见。
+[2021-01-29 00:25:50,563] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")查找存在，等待时间长为：0.031s 。
+[2021-01-29 00:25:50,563] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 专线运输，点击元素('xpath', "//span[contains(text(),'专线运输')]")。
+[2021-01-29 00:25:50,641] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入发票抬头 ，等待元素 ('xpath', '//input[@placeholder="输入发票抬头"]') 可见。
+[2021-01-29 00:25:50,659] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:25:50,659] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入发票抬头, 查找元素('xpath', '//input[@placeholder="输入发票抬头"]')可见。
+[2021-01-29 00:25:50,666] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:50,666] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入发票抬头，对元素('xpath', '//input[@placeholder="输入发票抬头"]')输入内容：测试公司。
+[2021-01-29 00:25:50,743] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入税号 ，等待元素 ('xpath', '//input[@placeholder="输入税号"]') 可见。
+[2021-01-29 00:25:50,762] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:25:50,762] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入税号, 查找元素('xpath', '//input[@placeholder="输入税号"]')可见。
+[2021-01-29 00:25:50,769] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:50,769] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入税号，对元素('xpath', '//input[@placeholder="输入税号"]')输入内容：23233555533121。
+[2021-01-29 00:25:50,947] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入开户行 ，等待元素 ('xpath', '//input[@placeholder="输入开户行"]') 可见。
+[2021-01-29 00:25:50,967] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:25:50,967] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入开户行, 查找元素('xpath', '//input[@placeholder="输入开户行"]')可见。
+[2021-01-29 00:25:50,974] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:50,974] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入开户行，对元素('xpath', '//input[@placeholder="输入开户行"]')输入内容：中国农业银行。
+[2021-01-29 00:25:51,053] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入银行账号 ，等待元素 ('xpath', '//input[@placeholder="输入银行账号"]') 可见。
+[2021-01-29 00:25:51,072] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:25:51,072] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入银行账号, 查找元素('xpath', '//input[@placeholder="输入银行账号"]')可见。
+[2021-01-29 00:25:51,079] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:25:51,079] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入银行账号，对元素('xpath', '//input[@placeholder="输入银行账号"]')输入内容：546456111114554322。
+[2021-01-29 00:25:51,214] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 提交 ，等待元素 ('xpath', '//button[@ class="upBtn"]') 可见。
+[2021-01-29 00:25:51,232] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:25:51,232] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 提交, 查找元素('xpath', '//button[@ class="upBtn"]')可见。
+[2021-01-29 00:25:51,238] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:25:51,238] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
+[2021-01-29 00:25:51,280] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系方式不能为空，等待元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系方式不能为空"]')存在。
+[2021-01-29 00:25:51,816] - [INFO] - [basepage.py] - [line: 160] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系方式不能为空"]')等待存在,等待时间长为：0.536s 。
+[2021-01-29 00:25:51,816] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系方式不能为空, 查找元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系方式不能为空"]')可见。
+[2021-01-29 00:25:51,839] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系方式不能为空"]')查找存在，等待时间长为：0.021s 。
+[2021-01-29 00:25:51,839] - [INFO] - [basepage.py] - [line: 174] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系方式不能为空 ，获取元素文本内容： ('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系方式不能为空"]') 。
+[2021-01-29 00:25:51,871] - [INFO] - [basepage.py] - [line: 182] - [OMS] - [日志信息]: 获取元素文本内容为：联系方式不能为空 
+[2021-01-29 00:26:13,215] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:26:13,264] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.049s 。
+[2021-01-29 00:26:13,264] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:26:13,280] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:26:13,280] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:26:13,422] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:26:13,445] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:26:13,445] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:26:13,450] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:26:13,451] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:26:13,517] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:26:13,534] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:26:13,534] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:26:13,540] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:26:13,540] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:26:13,583] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:26:14,186] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.603s 。
+[2021-01-29 00:26:14,187] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:26:14,194] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:26:14,195] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试万立货主企业有限公司。
+[2021-01-29 00:26:14,348] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:26:14,369] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:26:14,369] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:26:14,376] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:26:14,376] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:26:14,501] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:26:14,520] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:26:14,520] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:26:14,527] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:26:14,527] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:26:14,570] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:26:24,654] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:26:24,670] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:26:24,670] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:26:24,685] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:26:24,685] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:26:24,731] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:26:34,809] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:26:34,824] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:26:34,824] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:26:34,842] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.018s 。
+[2021-01-29 00:26:34,842] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:26:34,884] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:26:44,959] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:26:44,988] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.029s 。
+[2021-01-29 00:26:44,988] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:26:44,996] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.008s 。
+[2021-01-29 00:26:44,996] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：张可涛。
+[2021-01-29 00:26:45,063] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:26:45,085] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:26:45,085] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:26:45,092] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:26:45,092] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13081122340。
+[2021-01-29 00:26:45,204] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:26:45,223] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:26:45,223] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:26:45,229] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:26:45,229] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:26:45,315] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:26:45,340] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.025s 。
+[2021-01-29 00:26:45,341] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:26:45,347] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:26:45,347] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:26:46,416] - [ERROR] - [basepage.py] - [line: 91] - [OMS] - [日志信息]: 在省中点击元素，点击元素失败
+Traceback (most recent call last):
+  File "D:\Item_set\Automate_Test\Common\basepage.py", line 89, in get_element_click
+    return ele.click()
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class="el-cascader-node__label">...</span> is not clickable at point (508, 633). Other element would receive the click: <input type="text" autocomplete="off" placeholder="选择省/市/区" class="el-input__inner" aria-expanded="true">
+  (Session info: chrome=88.0.4324.104)
+
+[2021-01-29 00:26:47,030] - [INFO] - [basepage.py] - [line: 38] - [OMS] - [日志信息]: 页面截图成功文件保存在：D:\Item_set\Automate_Test\OutPuts\screenshots/202101290026_省.png
+[2021-01-29 00:27:08,346] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:27:08,370] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.024s 。
+[2021-01-29 00:27:08,371] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:27:08,378] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:27:08,378] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18958541699。
+[2021-01-29 00:27:08,476] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:27:08,498] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:27:08,498] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:27:08,505] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:27:08,505] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:27:08,576] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:27:08,594] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:27:08,594] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:27:08,601] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:27:08,601] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:27:08,645] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:27:09,200] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.554s 。
+[2021-01-29 00:27:09,201] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:27:09,206] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:27:09,206] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试建立货主企业有限公司。
+[2021-01-29 00:27:09,351] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:27:09,371] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:27:09,371] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:27:09,376] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:27:09,376] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:27:09,496] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:27:09,513] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:27:09,513] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:27:09,520] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:27:09,520] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:27:09,562] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:27:19,676] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:27:19,693] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:27:19,693] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:27:19,693] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:27:19,693] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:27:19,749] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:27:29,829] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:27:29,853] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.024s 。
+[2021-01-29 00:27:29,853] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:27:29,853] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:27:29,853] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:27:29,925] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:27:40,037] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:27:40,052] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:27:40,052] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:27:40,052] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:27:40,052] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：张可涛。
+[2021-01-29 00:27:40,132] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:27:40,152] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:27:40,152] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:27:40,159] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:27:40,159] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13081122340。
+[2021-01-29 00:27:40,270] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:27:40,289] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:27:40,289] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:27:40,294] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:27:40,294] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:27:42,389] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:27:42,435] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.046s 。
+[2021-01-29 00:27:42,451] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:27:42,466] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:27:42,466] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:27:42,588] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 市 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']") 可见。
+[2021-01-29 00:27:42,608] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:27:42,608] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 市, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")可见。
+[2021-01-29 00:27:42,614] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:27:42,614] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 市，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")。
+[2021-01-29 00:27:44,686] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 区 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']") 可见。
+[2021-01-29 00:27:44,701] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:27:44,701] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 区, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")可见。
+[2021-01-29 00:27:44,716] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:27:44,716] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 区，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")。
+[2021-01-29 00:27:46,823] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址定位 ，等待元素 ('xpath', "//input[contains(@placeholder,'详细地址定位')]") 可见。
+[2021-01-29 00:27:46,854] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")等待存在,等待时间长为：0.031s 。
+[2021-01-29 00:27:46,854] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址定位, 查找元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")可见。
+[2021-01-29 00:27:46,854] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:27:46,854] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址定位，点击元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")。
+[2021-01-29 00:27:46,934] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入详细地址 ，等待元素 ('xpath', "//input[@id='tipinput']") 可见。
+[2021-01-29 00:27:46,954] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:27:46,954] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入详细地址, 查找元素('xpath', "//input[@id='tipinput']")可见。
+[2021-01-29 00:27:46,962] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:27:46,963] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入详细地址，对元素('xpath', "//input[@id='tipinput']")输入内容：日土镇。
+[2021-01-29 00:27:50,024] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址确定按钮 ，等待元素 ('xpath', "//button[@class='confirm']") 可见。
+[2021-01-29 00:27:50,055] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")等待存在,等待时间长为：0.031s 。
+[2021-01-29 00:27:50,055] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址确定按钮, 查找元素('xpath', "//button[@class='confirm']")可见。
+[2021-01-29 00:27:50,055] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:27:50,055] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址确定按钮，点击元素('xpath', "//button[@class='confirm']")。
+[2021-01-29 00:27:50,120] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 选择运营中心 ，等待元素 ('xpath', "//input[@placeholder='请选择运营中心']") 可见。
+[2021-01-29 00:27:50,137] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:27:50,137] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 选择运营中心, 查找元素('xpath', "//input[@placeholder='请选择运营中心']")可见。
+[2021-01-29 00:27:50,143] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:27:50,143] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 选择运营中心，点击元素('xpath', "//input[@placeholder='请选择运营中心']")。
+[2021-01-29 00:27:50,203] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 西藏运营中心 ，等待元素 ('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]") 可见。
+[2021-01-29 00:27:50,747] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")等待存在,等待时间长为：0.544s 。
+[2021-01-29 00:27:50,747] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 西藏运营中心, 查找元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")可见。
+[2021-01-29 00:27:50,763] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:27:50,763] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 西藏运营中心，点击元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")。
+[2021-01-29 00:27:52,904] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 运营范围 ，等待元素 ('xpath', "//div[@class='el-select']//input[@placeholder='请选择']") 可见。
+[2021-01-29 00:27:52,919] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:27:52,919] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 运营范围, 查找元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")可见。
+[2021-01-29 00:27:52,935] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:27:52,935] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 运营范围，点击元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")。
+[2021-01-29 00:27:53,011] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 专线运输 ，等待元素 ('xpath', "//span[contains(text(),'专线运输')]") 可见。
+[2021-01-29 00:27:53,593] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")等待存在,等待时间长为：0.582s 。
+[2021-01-29 00:27:53,593] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 专线运输, 查找元素('xpath', "//span[contains(text(),'专线运输')]")可见。
+[2021-01-29 00:27:53,608] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:27:53,608] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 专线运输，点击元素('xpath', "//span[contains(text(),'专线运输')]")。
+[2021-01-29 00:27:53,737] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入发票抬头 ，等待元素 ('xpath', '//input[@placeholder="输入发票抬头"]') 可见。
+[2021-01-29 00:27:53,758] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:27:53,758] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入发票抬头, 查找元素('xpath', '//input[@placeholder="输入发票抬头"]')可见。
+[2021-01-29 00:27:53,765] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')查找存在，等待时间长为：0.008s 。
+[2021-01-29 00:27:53,765] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入发票抬头，对元素('xpath', '//input[@placeholder="输入发票抬头"]')输入内容：测试公司。
+[2021-01-29 00:27:53,842] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入税号 ，等待元素 ('xpath', '//input[@placeholder="输入税号"]') 可见。
+[2021-01-29 00:27:53,861] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:27:53,861] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入税号, 查找元素('xpath', '//input[@placeholder="输入税号"]')可见。
+[2021-01-29 00:27:53,901] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')查找存在，等待时间长为：0.038s 。
+[2021-01-29 00:27:53,901] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入税号，对元素('xpath', '//input[@placeholder="输入税号"]')输入内容：23233555533121。
+[2021-01-29 00:27:54,044] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入开户行 ，等待元素 ('xpath', '//input[@placeholder="输入开户行"]') 可见。
+[2021-01-29 00:27:54,063] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:27:54,063] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入开户行, 查找元素('xpath', '//input[@placeholder="输入开户行"]')可见。
+[2021-01-29 00:27:54,070] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:27:54,070] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入开户行，对元素('xpath', '//input[@placeholder="输入开户行"]')输入内容：中国农业银行。
+[2021-01-29 00:27:54,152] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入银行账号 ，等待元素 ('xpath', '//input[@placeholder="输入银行账号"]') 可见。
+[2021-01-29 00:27:54,172] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:27:54,172] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入银行账号, 查找元素('xpath', '//input[@placeholder="输入银行账号"]')可见。
+[2021-01-29 00:27:54,180] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')查找存在，等待时间长为：0.008s 。
+[2021-01-29 00:27:54,180] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入银行账号，对元素('xpath', '//input[@placeholder="输入银行账号"]')输入内容：546456111114554322。
+[2021-01-29 00:27:54,314] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 提交 ，等待元素 ('xpath', '//button[@ class="upBtn"]') 可见。
+[2021-01-29 00:27:54,332] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:27:54,332] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 提交, 查找元素('xpath', '//button[@ class="upBtn"]')可见。
+[2021-01-29 00:27:54,339] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:27:54,339] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
+[2021-01-29 00:27:54,385] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 注册成功提示信息是否存在 ，等待元素 ('xpath', "//div[@id='gc_content']//span[text()='1~3个工作日']") 可见。
+[2021-01-29 00:27:54,964] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@id='gc_content']//span[text()='1~3个工作日']")等待存在,等待时间长为：0.577s 。
+[2021-01-29 00:58:02,403] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 00:58:02,431] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.028s 。
+[2021-01-29 00:58:02,431] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 00:58:02,438] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:58:02,438] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18867563663。
+[2021-01-29 00:58:02,539] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 00:58:02,560] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.021s 。
+[2021-01-29 00:58:02,561] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 00:58:02,566] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:58:02,566] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 00:58:02,634] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 00:58:02,652] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:58:02,652] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 00:58:02,657] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:58:02,657] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 00:58:02,684] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 00:58:03,267] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.583s 。
+[2021-01-29 00:58:03,268] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 00:58:03,273] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:58:03,274] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 00:58:03,419] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 00:58:03,436] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:58:03,436] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 00:58:03,442] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:58:03,443] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 00:58:03,569] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 00:58:03,587] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:58:03,587] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 00:58:03,593] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:58:03,593] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 00:58:03,638] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 00:58:13,804] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 00:58:13,819] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:58:13,819] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 00:58:13,834] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:58:13,834] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 00:58:13,880] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 00:58:23,966] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 00:58:23,988] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:58:23,988] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 00:58:24,004] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:58:24,004] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 00:58:24,063] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 00:58:34,172] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 00:58:34,187] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:58:34,187] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 00:58:34,202] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:58:34,202] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：。
+[2021-01-29 00:58:34,253] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 00:58:34,270] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:58:34,270] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 00:58:34,274] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:58:34,274] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13080122340。
+[2021-01-29 00:58:34,407] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 00:58:34,425] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:58:34,425] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 00:58:34,431] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:58:34,431] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 00:58:36,536] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 00:58:36,551] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.015s 。
+[2021-01-29 00:58:36,551] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 00:58:36,567] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:58:36,567] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 00:58:36,628] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 市 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']") 可见。
+[2021-01-29 00:58:36,648] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:58:36,648] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 市, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")可见。
+[2021-01-29 00:58:36,655] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:58:36,655] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 市，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")。
+[2021-01-29 00:58:38,727] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 区 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']") 可见。
+[2021-01-29 00:58:38,776] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")等待存在,等待时间长为：0.049s 。
+[2021-01-29 00:58:38,776] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 区, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")可见。
+[2021-01-29 00:58:38,778] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")查找存在，等待时间长为：0.002s 。
+[2021-01-29 00:58:38,778] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 区，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")。
+[2021-01-29 00:58:40,885] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址定位 ，等待元素 ('xpath', "//input[contains(@placeholder,'详细地址定位')]") 可见。
+[2021-01-29 00:58:40,931] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")等待存在,等待时间长为：0.046s 。
+[2021-01-29 00:58:40,931] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址定位, 查找元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")可见。
+[2021-01-29 00:58:40,947] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 00:58:40,947] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址定位，点击元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")。
+[2021-01-29 00:58:41,086] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入详细地址 ，等待元素 ('xpath', "//input[@id='tipinput']") 可见。
+[2021-01-29 00:58:41,108] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 00:58:41,108] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入详细地址, 查找元素('xpath', "//input[@id='tipinput']")可见。
+[2021-01-29 00:58:41,115] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:58:41,115] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入详细地址，对元素('xpath', "//input[@id='tipinput']")输入内容：日土镇。
+[2021-01-29 00:58:44,186] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址确定按钮 ，等待元素 ('xpath', "//button[@class='confirm']") 可见。
+[2021-01-29 00:58:44,210] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")等待存在,等待时间长为：0.024s 。
+[2021-01-29 00:58:44,210] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址确定按钮, 查找元素('xpath', "//button[@class='confirm']")可见。
+[2021-01-29 00:58:44,210] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:58:44,210] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址确定按钮，点击元素('xpath', "//button[@class='confirm']")。
+[2021-01-29 00:58:44,300] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 选择运营中心 ，等待元素 ('xpath', "//input[@placeholder='请选择运营中心']") 可见。
+[2021-01-29 00:58:44,317] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")等待存在,等待时间长为：0.018s 。
+[2021-01-29 00:58:44,317] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 选择运营中心, 查找元素('xpath', "//input[@placeholder='请选择运营中心']")可见。
+[2021-01-29 00:58:44,324] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")查找存在，等待时间长为：0.005s 。
+[2021-01-29 00:58:44,324] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 选择运营中心，点击元素('xpath', "//input[@placeholder='请选择运营中心']")。
+[2021-01-29 00:58:44,379] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 西藏运营中心 ，等待元素 ('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]") 可见。
+[2021-01-29 00:58:44,935] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")等待存在,等待时间长为：0.556s 。
+[2021-01-29 00:58:44,951] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 西藏运营中心, 查找元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")可见。
+[2021-01-29 00:58:44,968] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")查找存在，等待时间长为：0.017s 。
+[2021-01-29 00:58:44,968] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 西藏运营中心，点击元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")。
+[2021-01-29 00:58:47,121] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 运营范围 ，等待元素 ('xpath', "//div[@class='el-select']//input[@placeholder='请选择']") 可见。
+[2021-01-29 00:58:47,152] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")等待存在,等待时间长为：0.031s 。
+[2021-01-29 00:58:47,152] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 运营范围, 查找元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")可见。
+[2021-01-29 00:58:47,152] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 00:58:47,152] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 运营范围，点击元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")。
+[2021-01-29 00:58:47,253] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 专线运输 ，等待元素 ('xpath', "//span[contains(text(),'专线运输')]") 可见。
+[2021-01-29 00:58:47,284] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")等待存在,等待时间长为：0.03s 。
+[2021-01-29 00:58:47,284] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 专线运输, 查找元素('xpath', "//span[contains(text(),'专线运输')]")可见。
+[2021-01-29 00:58:47,294] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")查找存在，等待时间长为：0.01s 。
+[2021-01-29 00:58:47,294] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 专线运输，点击元素('xpath', "//span[contains(text(),'专线运输')]")。
+[2021-01-29 00:58:47,372] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入发票抬头 ，等待元素 ('xpath', '//input[@placeholder="输入发票抬头"]') 可见。
+[2021-01-29 00:58:47,392] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:58:47,392] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入发票抬头, 查找元素('xpath', '//input[@placeholder="输入发票抬头"]')可见。
+[2021-01-29 00:58:47,399] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:58:47,399] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入发票抬头，对元素('xpath', '//input[@placeholder="输入发票抬头"]')输入内容：测试公司。
+[2021-01-29 00:58:47,471] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入税号 ，等待元素 ('xpath', '//input[@placeholder="输入税号"]') 可见。
+[2021-01-29 00:58:47,488] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:58:47,488] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入税号, 查找元素('xpath', '//input[@placeholder="输入税号"]')可见。
+[2021-01-29 00:58:47,496] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:58:47,496] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入税号，对元素('xpath', '//input[@placeholder="输入税号"]')输入内容：23233555533121。
+[2021-01-29 00:58:47,631] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入开户行 ，等待元素 ('xpath', '//input[@placeholder="输入开户行"]') 可见。
+[2021-01-29 00:58:47,652] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 00:58:47,653] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入开户行, 查找元素('xpath', '//input[@placeholder="输入开户行"]')可见。
+[2021-01-29 00:58:47,659] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 00:58:47,660] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入开户行，对元素('xpath', '//input[@placeholder="输入开户行"]')输入内容：中国农业银行。
+[2021-01-29 00:58:47,742] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入银行账号 ，等待元素 ('xpath', '//input[@placeholder="输入银行账号"]') 可见。
+[2021-01-29 00:58:47,761] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')等待存在,等待时间长为：0.019s 。
+[2021-01-29 00:58:47,761] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入银行账号, 查找元素('xpath', '//input[@placeholder="输入银行账号"]')可见。
+[2021-01-29 00:58:47,768] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:58:47,768] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入银行账号，对元素('xpath', '//input[@placeholder="输入银行账号"]')输入内容：546456111114554322。
+[2021-01-29 00:58:47,897] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 提交 ，等待元素 ('xpath', '//button[@ class="upBtn"]') 可见。
+[2021-01-29 00:58:47,915] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 00:58:47,915] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 提交, 查找元素('xpath', '//button[@ class="upBtn"]')可见。
+[2021-01-29 00:58:47,922] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 00:58:47,922] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
+[2021-01-29 00:58:47,967] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空，等待元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')存在。
+[2021-01-29 00:58:48,502] - [INFO] - [basepage.py] - [line: 160] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')等待存在,等待时间长为：0.535s 。
+[2021-01-29 00:58:48,502] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空, 查找元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')可见。
+[2021-01-29 00:58:48,524] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')查找存在，等待时间长为：0.02s 。
+[2021-01-29 00:58:48,524] - [INFO] - [basepage.py] - [line: 174] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空 ，获取元素文本内容： ('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]') 。
+[2021-01-29 00:58:48,561] - [INFO] - [basepage.py] - [line: 182] - [OMS] - [日志信息]: 获取元素文本内容为：联系人不能为空 
+[2021-01-29 01:00:13,926] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-01-29 01:00:13,950] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.023s 。
+[2021-01-29 01:00:13,950] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-01-29 01:00:13,957] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 01:00:13,957] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：18867563663。
+[2021-01-29 01:00:14,054] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-01-29 01:00:14,083] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.028s 。
+[2021-01-29 01:00:14,083] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-01-29 01:00:14,090] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 01:00:14,090] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh123456。
+[2021-01-29 01:00:14,173] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-01-29 01:00:14,190] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 01:00:14,191] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-01-29 01:00:14,196] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-01-29 01:00:14,196] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-01-29 01:00:14,239] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入公司名称 ，等待元素 ('xpath', '//input[@placeholder="输入公司名称"]') 可见。
+[2021-01-29 01:00:14,799] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')等待存在,等待时间长为：0.56s 。
+[2021-01-29 01:00:14,799] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入公司名称, 查找元素('xpath', '//input[@placeholder="输入公司名称"]')可见。
+[2021-01-29 01:00:14,805] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入公司名称"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 01:00:14,806] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入公司名称，对元素('xpath', '//input[@placeholder="输入公司名称"]')输入内容：测试哈耶货主企业有限公司。
+[2021-01-29 01:00:14,955] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入营业执照号 ，等待元素 ('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]') 可见。
+[2021-01-29 01:00:14,972] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 01:00:14,972] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入营业执照号, 查找元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')可见。
+[2021-01-29 01:00:14,978] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 01:00:14,978] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入营业执照号，对元素('xpath', '//input[@placeholder="输入统一社会信用代码或营业执照号"]')输入内容：545111211726662。
+[2021-01-29 01:00:15,102] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传营业执照图片 ，等待元素 ('xpath', "//label[@class='merc_license']") 可见。
+[2021-01-29 01:00:15,119] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 01:00:15,119] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传营业执照图片, 查找元素('xpath', "//label[@class='merc_license']")可见。
+[2021-01-29 01:00:15,126] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//label[@class='merc_license']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 01:00:15,126] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传营业执照图片，点击元素('xpath', "//label[@class='merc_license']")。
+[2021-01-29 01:00:15,168] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\223.jpg）
+[2021-01-29 01:00:25,324] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar']") 可见。
+[2021-01-29 01:00:25,357] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")等待存在,等待时间长为：0.033s 。
+[2021-01-29 01:00:25,357] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar']")可见。
+[2021-01-29 01:00:25,357] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 01:00:25,357] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar']")。
+[2021-01-29 01:00:25,408] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\224.jpg）
+[2021-01-29 01:00:35,478] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 点击上传身份证图片 ，等待元素 ('xpath', "//div[@class='avatar upimg']") 可见。
+[2021-01-29 01:00:35,492] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")等待存在,等待时间长为：0.014s 。
+[2021-01-29 01:00:35,492] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 点击上传身份证图片, 查找元素('xpath', "//div[@class='avatar upimg']")可见。
+[2021-01-29 01:00:35,507] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='avatar upimg']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 01:00:35,507] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 点击上传身份证图片，点击元素('xpath', "//div[@class='avatar upimg']")。
+[2021-01-29 01:00:35,553] - [INFO] - [basepage.py] - [line: 285] - [OMS] - [日志信息]: 上传文件（D:\Item_set\225.jpg）
+[2021-01-29 01:00:45,646] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人 ，等待元素 ('xpath', '//input[@placeholder="输入联系人姓名"]') 可见。
+[2021-01-29 01:00:45,701] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')等待存在,等待时间长为：0.056s 。
+[2021-01-29 01:00:45,701] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人, 查找元素('xpath', '//input[@placeholder="输入联系人姓名"]')可见。
+[2021-01-29 01:00:45,717] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人姓名"]')查找存在，等待时间长为：0.016s 。
+[2021-01-29 01:00:45,717] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人，对元素('xpath', '//input[@placeholder="输入联系人姓名"]')输入内容：。
+[2021-01-29 01:00:45,774] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入联系人号码 ，等待元素 ('xpath', '//input[@placeholder="输入联系人号码"]') 可见。
+[2021-01-29 01:00:45,790] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')等待存在,等待时间长为：0.016s 。
+[2021-01-29 01:00:45,790] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入联系人号码, 查找元素('xpath', '//input[@placeholder="输入联系人号码"]')可见。
+[2021-01-29 01:00:45,797] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入联系人号码"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 01:00:45,797] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入联系人号码，对元素('xpath', '//input[@placeholder="输入联系人号码"]')输入内容：13080122340。
+[2021-01-29 01:00:45,900] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 地址选择 ，等待元素 ('xpath', "//input[@placeholder='选择省/市/区']") 可见。
+[2021-01-29 01:00:45,918] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 01:00:45,918] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 地址选择, 查找元素('xpath', "//input[@placeholder='选择省/市/区']")可见。
+[2021-01-29 01:00:45,925] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='选择省/市/区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 01:00:45,925] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 地址选择，点击元素('xpath', "//input[@placeholder='选择省/市/区']")。
+[2021-01-29 01:00:48,022] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 省 ，等待元素 ('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']") 可见。
+[2021-01-29 01:00:48,038] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")等待存在,等待时间长为：0.016s 。
+[2021-01-29 01:00:48,038] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 省, 查找元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")可见。
+[2021-01-29 01:00:48,038] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")查找存在，等待时间长为：0.0s 。
+[2021-01-29 01:00:48,038] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 省，点击元素('xpath', "//li[starts-with(@role,'menuitem')]/span[text()='西藏']")。
+[2021-01-29 01:00:48,113] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 市 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']") 可见。
+[2021-01-29 01:00:48,133] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 01:00:48,133] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 市, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")可见。
+[2021-01-29 01:00:48,140] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")查找存在，等待时间长为：0.007s 。
+[2021-01-29 01:00:48,140] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 市，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='阿里地区']")。
+[2021-01-29 01:00:50,211] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 区 ，等待元素 ('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']") 可见。
+[2021-01-29 01:00:50,226] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")等待存在,等待时间长为：0.016s 。
+[2021-01-29 01:00:50,226] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 区, 查找元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")可见。
+[2021-01-29 01:00:50,242] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 01:00:50,242] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 区，点击元素('xpath', "//li[starts-with(@role,'menu')]/span[text()='日土县']")。
+[2021-01-29 01:00:52,321] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址定位 ，等待元素 ('xpath', "//input[contains(@placeholder,'详细地址定位')]") 可见。
+[2021-01-29 01:00:52,337] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")等待存在,等待时间长为：0.015s 。
+[2021-01-29 01:00:52,337] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址定位, 查找元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")可见。
+[2021-01-29 01:00:52,353] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")查找存在，等待时间长为：0.016s 。
+[2021-01-29 01:00:52,353] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址定位，点击元素('xpath', "//input[contains(@placeholder,'详细地址定位')]")。
+[2021-01-29 01:00:52,430] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入详细地址 ，等待元素 ('xpath', "//input[@id='tipinput']") 可见。
+[2021-01-29 01:00:52,452] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")等待存在,等待时间长为：0.022s 。
+[2021-01-29 01:00:52,452] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入详细地址, 查找元素('xpath', "//input[@id='tipinput']")可见。
+[2021-01-29 01:00:52,461] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@id='tipinput']")查找存在，等待时间长为：0.009s 。
+[2021-01-29 01:00:52,461] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入详细地址，对元素('xpath', "//input[@id='tipinput']")输入内容：日土镇。
+[2021-01-29 01:00:55,518] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 详细地址确定按钮 ，等待元素 ('xpath', "//button[@class='confirm']") 可见。
+[2021-01-29 01:00:55,538] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")等待存在,等待时间长为：0.02s 。
+[2021-01-29 01:00:55,538] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 详细地址确定按钮, 查找元素('xpath', "//button[@class='confirm']")可见。
+[2021-01-29 01:00:55,553] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//button[@class='confirm']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 01:00:55,553] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 详细地址确定按钮，点击元素('xpath', "//button[@class='confirm']")。
+[2021-01-29 01:00:55,666] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 选择运营中心 ，等待元素 ('xpath', "//input[@placeholder='请选择运营中心']") 可见。
+[2021-01-29 01:00:55,682] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")等待存在,等待时间长为：0.017s 。
+[2021-01-29 01:00:55,683] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 选择运营中心, 查找元素('xpath', "//input[@placeholder='请选择运营中心']")可见。
+[2021-01-29 01:00:55,689] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//input[@placeholder='请选择运营中心']")查找存在，等待时间长为：0.006s 。
+[2021-01-29 01:00:55,689] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 选择运营中心，点击元素('xpath', "//input[@placeholder='请选择运营中心']")。
+[2021-01-29 01:00:55,755] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 西藏运营中心 ，等待元素 ('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]") 可见。
+[2021-01-29 01:00:56,339] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")等待存在,等待时间长为：0.584s 。
+[2021-01-29 01:00:56,339] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 西藏运营中心, 查找元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")可见。
+[2021-01-29 01:00:56,356] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")查找存在，等待时间长为：0.017s 。
+[2021-01-29 01:00:56,356] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 西藏运营中心，点击元素('xpath', "//div[@class='el-scrollbar']//span[contains(text(),'西藏运营中心')]")。
+[2021-01-29 01:00:58,508] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 运营范围 ，等待元素 ('xpath', "//div[@class='el-select']//input[@placeholder='请选择']") 可见。
+[2021-01-29 01:00:58,554] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")等待存在,等待时间长为：0.047s 。
+[2021-01-29 01:00:58,554] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 运营范围, 查找元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")可见。
+[2021-01-29 01:00:58,570] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")查找存在，等待时间长为：0.016s 。
+[2021-01-29 01:00:58,570] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 运营范围，点击元素('xpath', "//div[@class='el-select']//input[@placeholder='请选择']")。
+[2021-01-29 01:00:58,626] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 专线运输 ，等待元素 ('xpath', "//span[contains(text(),'专线运输')]") 可见。
+[2021-01-29 01:00:59,173] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")等待存在,等待时间长为：0.547s 。
+[2021-01-29 01:00:59,173] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 专线运输, 查找元素('xpath', "//span[contains(text(),'专线运输')]")可见。
+[2021-01-29 01:00:59,173] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', "//span[contains(text(),'专线运输')]")查找存在，等待时间长为：0.0s 。
+[2021-01-29 01:00:59,173] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 专线运输，点击元素('xpath', "//span[contains(text(),'专线运输')]")。
+[2021-01-29 01:00:59,237] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入发票抬头 ，等待元素 ('xpath', '//input[@placeholder="输入发票抬头"]') 可见。
+[2021-01-29 01:00:59,257] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 01:00:59,257] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入发票抬头, 查找元素('xpath', '//input[@placeholder="输入发票抬头"]')可见。
+[2021-01-29 01:00:59,265] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入发票抬头"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 01:00:59,265] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入发票抬头，对元素('xpath', '//input[@placeholder="输入发票抬头"]')输入内容：测试公司。
+[2021-01-29 01:00:59,340] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入税号 ，等待元素 ('xpath', '//input[@placeholder="输入税号"]') 可见。
+[2021-01-29 01:00:59,359] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')等待存在,等待时间长为：0.02s 。
+[2021-01-29 01:00:59,359] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入税号, 查找元素('xpath', '//input[@placeholder="输入税号"]')可见。
+[2021-01-29 01:00:59,366] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入税号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 01:00:59,366] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入税号，对元素('xpath', '//input[@placeholder="输入税号"]')输入内容：23233555533121。
+[2021-01-29 01:00:59,531] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入开户行 ，等待元素 ('xpath', '//input[@placeholder="输入开户行"]') 可见。
+[2021-01-29 01:00:59,562] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')等待存在,等待时间长为：0.03s 。
+[2021-01-29 01:00:59,562] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入开户行, 查找元素('xpath', '//input[@placeholder="输入开户行"]')可见。
+[2021-01-29 01:00:59,569] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入开户行"]')查找存在，等待时间长为：0.007s 。
+[2021-01-29 01:00:59,569] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入开户行，对元素('xpath', '//input[@placeholder="输入开户行"]')输入内容：中国农业银行。
+[2021-01-29 01:00:59,651] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 输入银行账号 ，等待元素 ('xpath', '//input[@placeholder="输入银行账号"]') 可见。
+[2021-01-29 01:00:59,670] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')等待存在,等待时间长为：0.018s 。
+[2021-01-29 01:00:59,670] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 输入银行账号, 查找元素('xpath', '//input[@placeholder="输入银行账号"]')可见。
+[2021-01-29 01:00:59,676] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="输入银行账号"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 01:00:59,676] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 输入银行账号，对元素('xpath', '//input[@placeholder="输入银行账号"]')输入内容：546456111114554322。
+[2021-01-29 01:00:59,807] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 提交 ，等待元素 ('xpath', '//button[@ class="upBtn"]') 可见。
+[2021-01-29 01:00:59,824] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')等待存在,等待时间长为：0.017s 。
+[2021-01-29 01:00:59,824] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 提交, 查找元素('xpath', '//button[@ class="upBtn"]')可见。
+[2021-01-29 01:00:59,830] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//button[@ class="upBtn"]')查找存在，等待时间长为：0.006s 。
+[2021-01-29 01:00:59,831] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
+[2021-01-29 01:00:59,877] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空，等待元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')存在。
+[2021-01-29 01:01:00,420] - [INFO] - [basepage.py] - [line: 160] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')等待存在,等待时间长为：0.542s 。
+[2021-01-29 01:01:00,420] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空, 查找元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')可见。
+[2021-01-29 01:01:00,443] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]')查找存在，等待时间长为：0.021s 。
+[2021-01-29 01:01:00,443] - [INFO] - [basepage.py] - [line: 174] - [OMS] - [日志信息]: 在 注册页面_注册功能错误信息_获取异常提示语:联系人不能为空 ，获取元素文本内容： ('xpath', '//div[@class="_alert_dialog"]/child::p[text()="联系人不能为空"]') 。
+[2021-01-29 01:01:00,476] - [INFO] - [basepage.py] - [line: 182] - [OMS] - [日志信息]: 获取元素文本内容为：联系人不能为空 
