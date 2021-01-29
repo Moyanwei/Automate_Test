@@ -94,7 +94,7 @@ class RegisterPage(BasePage):
 
     def Yyzx_err(self):
         yyzx = '注册页面_注册功能错误信息_获取异常提示语:运营中心不能为空'
-        return self.get_element_txt(loc.yyzx_loc, yyzx)
+        return self.get_element_txt(loc.yyzxErr_loc, yyzx)
 
     def CompanyName_err(self):
         companyName = '注册页面_注册功能错误信息_获取异常提示语:公司名称已存在'

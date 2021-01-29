@@ -17,6 +17,7 @@ class TestRegister:
      页面跳转至注册信息填写界面-填写注册认证信息
      断言-首页-获取注册界面（提交）按钮元素，确认元素是否存在
     """
+
     def test_register01(self, register_web):
         register_web[1].register(REG.ContactNone_data['companyName'], REG.ContactNone_data['LicenseNo'],
                                  REG.ContactNone_data['linkMan'], REG.ContactNone_data['contactNumber'],
@@ -42,9 +43,18 @@ class TestRegister:
                                            REG.YyzxNone_data['dutyParagraph'], REG.YyzxNone_data['bankOfDeposit'],
                                            REG.YyzxNone_data['bankAccount'], REG.YyzxNone_data['file_path1'],
                                            REG.YyzxNone_data['file_path2'], REG.YyzxNone_data['file_path3'])
-        assert REG.YyzxNone_data['errorMsg'] == register_web[1].ContactPhone_err()
+        assert REG.YyzxNone_data['errorMsg'] == register_web[1].Yyzx_err()
 
     def test_register04(self, register_web):
+        register_web[1].register(REG.CompanyName_data['companyName'], REG.CompanyName_data['LicenseNo'],
+                                 REG.CompanyName_data['linkMan'], REG.CompanyName_data['contactNumber'],
+                                 REG.CompanyName_data['detail'], REG.CompanyName_data['invoiceTitle'],
+                                 REG.CompanyName_data['dutyParagraph'], REG.CompanyName_data['bankOfDeposit'],
+                                 REG.CompanyName_data['bankAccount'], REG.CompanyName_data['file_path1'],
+                                 REG.CompanyName_data['file_path2'], REG.CompanyName_data['file_path3'])
+        assert REG.CompanyName_data['errorMsg'] == register_web[1].CompanyName_err()
+
+    def test_register05(self, register_web):
         register_web[1].register(REG.Normal_data['companyName'], REG.Normal_data['LicenseNo'],
                                  REG.Normal_data['linkMan'], REG.Normal_data['contactNumber'],
                                  REG.Normal_data['detail'], REG.Normal_data['invoiceTitle'],
