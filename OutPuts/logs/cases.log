@@ -14195,3 +14195,100 @@ AttributeError: 'NoneType' object has no attribute 'is_displayed'
 [2021-01-30 01:05:38,973] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 提交，点击元素('xpath', '//button[@ class="upBtn"]')。
 [2021-01-30 01:05:39,133] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 注册成功提示信息是否存在 ，等待元素 ('xpath', "//div[@id='gc_content']//span[text()='1~3个工作日']") 可见。
 [2021-01-30 01:05:39,715] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', "//div[@id='gc_content']//span[text()='1~3个工作日']")等待存在,等待时间长为：0.581s 。
+[2021-03-21 17:12:42,457] - [INFO] - [conftest.py] - [line: 48] - [Case] - [日志信息]: =================开始执行测试=================
+[2021-03-21 17:12:42,458] - [INFO] - [conftest.py] - [line: 50] - [Case] - [日志信息]: 1500
+[2021-03-21 17:12:42,458] - [INFO] - [conftest.py] - [line: 51] - [Case] - [日志信息]: 1000
+[2021-03-21 17:12:42,458] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-03-21 17:12:42,484] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.025s 。
+[2021-03-21 17:12:42,484] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-03-21 17:12:42,489] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.006s 。
+[2021-03-21 17:12:42,489] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：15691750516。
+[2021-03-21 17:12:42,593] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-03-21 17:12:42,613] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.02s 。
+[2021-03-21 17:12:42,614] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-03-21 17:12:42,618] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.004s 。
+[2021-03-21 17:12:42,619] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：sdh168168。
+[2021-03-21 17:12:42,689] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-03-21 17:12:42,706] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.017s 。
+[2021-03-21 17:12:42,706] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-03-21 17:12:42,711] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-03-21 17:12:42,711] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-03-21 17:12:42,750] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 首页 - 查看用户名是否存在 ，等待元素 ('xpath', '//div[@class="header_user_account_mobile"]') 可见。
+[2021-03-21 17:12:43,886] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="header_user_account_mobile"]')等待存在,等待时间长为：1.136s 。
+[2021-03-21 17:12:43,887] - [INFO] - [conftest.py] - [line: 55] - [Case] - [日志信息]: =================用例执行结束=================
+[2021-03-21 17:12:53,702] - [INFO] - [conftest.py] - [line: 48] - [Case] - [日志信息]: =================开始执行测试=================
+[2021-03-21 17:12:53,703] - [INFO] - [conftest.py] - [line: 50] - [Case] - [日志信息]: 1500
+[2021-03-21 17:12:53,703] - [INFO] - [conftest.py] - [line: 51] - [Case] - [日志信息]: 1000
+[2021-03-21 17:12:53,703] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-03-21 17:12:53,727] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.023s 。
+[2021-03-21 17:12:53,727] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-03-21 17:12:53,735] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.007s 。
+[2021-03-21 17:12:53,735] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：15691750516。
+[2021-03-21 17:12:53,838] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-03-21 17:12:53,860] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.022s 。
+[2021-03-21 17:12:53,861] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-03-21 17:12:53,867] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.006s 。
+[2021-03-21 17:12:53,867] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：12345。
+[2021-03-21 17:12:53,929] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-03-21 17:12:53,947] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.018s 。
+[2021-03-21 17:12:53,947] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-03-21 17:12:53,952] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-03-21 17:12:53,953] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-03-21 17:12:53,993] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_获取错误信息，等待元素('xpath', '//div[@class="_alert_dialog"]')存在。
+[2021-03-21 17:12:54,190] - [INFO] - [basepage.py] - [line: 160] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]')等待存在,等待时间长为：0.197s 。
+[2021-03-21 17:12:54,191] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_获取错误信息, 查找元素('xpath', '//div[@class="_alert_dialog"]')可见。
+[2021-03-21 17:12:54,197] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]')查找存在，等待时间长为：0.006s 。
+[2021-03-21 17:12:54,197] - [INFO] - [basepage.py] - [line: 173] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_获取错误信息 ，获取元素文本内容： ('xpath', '//div[@class="_alert_dialog"]') 。
+[2021-03-21 17:12:54,207] - [INFO] - [basepage.py] - [line: 181] - [OMS] - [日志信息]: 获取元素文本内容为：账号或密码错误! 
+[2021-03-21 17:12:54,208] - [INFO] - [conftest.py] - [line: 55] - [Case] - [日志信息]: =================用例执行结束=================
+[2021-03-21 17:13:03,805] - [INFO] - [conftest.py] - [line: 48] - [Case] - [日志信息]: =================开始执行测试=================
+[2021-03-21 17:13:03,805] - [INFO] - [conftest.py] - [line: 50] - [Case] - [日志信息]: 1500
+[2021-03-21 17:13:03,805] - [INFO] - [conftest.py] - [line: 51] - [Case] - [日志信息]: 1000
+[2021-03-21 17:13:03,806] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-03-21 17:13:03,831] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.025s 。
+[2021-03-21 17:13:03,831] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-03-21 17:13:03,838] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.007s 。
+[2021-03-21 17:13:03,839] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：15691750516。
+[2021-03-21 17:13:03,941] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-03-21 17:13:03,962] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.021s 。
+[2021-03-21 17:13:03,962] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-03-21 17:13:03,967] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.005s 。
+[2021-03-21 17:13:03,968] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：1234567890。
+[2021-03-21 17:13:04,039] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-03-21 17:13:04,056] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.017s 。
+[2021-03-21 17:13:04,057] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-03-21 17:13:04,062] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-03-21 17:13:04,062] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-03-21 17:13:04,102] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_获取错误信息，等待元素('xpath', '//div[@class="_alert_dialog"]')存在。
+[2021-03-21 17:13:04,253] - [INFO] - [basepage.py] - [line: 160] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]')等待存在,等待时间长为：0.15s 。
+[2021-03-21 17:13:04,254] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_获取错误信息, 查找元素('xpath', '//div[@class="_alert_dialog"]')可见。
+[2021-03-21 17:13:04,274] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="_alert_dialog"]')查找存在，等待时间长为：0.02s 。
+[2021-03-21 17:13:04,274] - [INFO] - [basepage.py] - [line: 173] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_获取错误信息 ，获取元素文本内容： ('xpath', '//div[@class="_alert_dialog"]') 。
+[2021-03-21 17:13:04,293] - [INFO] - [basepage.py] - [line: 181] - [OMS] - [日志信息]: 获取元素文本内容为：账号或密码错误! 
+[2021-03-21 17:13:04,293] - [INFO] - [conftest.py] - [line: 55] - [Case] - [日志信息]: =================用例执行结束=================
+[2021-03-21 17:13:14,048] - [INFO] - [conftest.py] - [line: 48] - [Case] - [日志信息]: =================开始执行测试=================
+[2021-03-21 17:13:14,048] - [INFO] - [conftest.py] - [line: 50] - [Case] - [日志信息]: 1500
+[2021-03-21 17:13:14,048] - [INFO] - [conftest.py] - [line: 51] - [Case] - [日志信息]: 1000
+[2021-03-21 17:13:14,049] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名 ，等待元素 ('xpath', '//input[@placeholder="请输入账号"]') 可见。
+[2021-03-21 17:13:14,086] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')等待存在,等待时间长为：0.037s 。
+[2021-03-21 17:13:14,086] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名, 查找元素('xpath', '//input[@placeholder="请输入账号"]')可见。
+[2021-03-21 17:13:14,101] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入账号"]')查找存在，等待时间长为：0.014s 。
+[2021-03-21 17:13:14,101] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入用户名，对元素('xpath', '//input[@placeholder="请输入账号"]')输入内容：15691750516。
+[2021-03-21 17:13:14,203] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登录页面 - 输入密码 ，等待元素 ('xpath', '//input[@placeholder="请输入密码"]') 可见。
+[2021-03-21 17:13:14,224] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')等待存在,等待时间长为：0.021s 。
+[2021-03-21 17:13:14,224] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面 - 输入密码, 查找元素('xpath', '//input[@placeholder="请输入密码"]')可见。
+[2021-03-21 17:13:14,229] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//input[@placeholder="请输入密码"]')查找存在，等待时间长为：0.005s 。
+[2021-03-21 17:13:14,229] - [INFO] - [basepage.py] - [line: 99] - [OMS] - [日志信息]: 在 登录页面 - 输入密码，对元素('xpath', '//input[@placeholder="请输入密码"]')输入内容：。
+[2021-03-21 17:13:14,266] - [INFO] - [basepage.py] - [line: 50] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮 ，等待元素 ('xpath', '//div[@class="gologin"]') 可见。
+[2021-03-21 17:13:14,283] - [INFO] - [basepage.py] - [line: 62] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')等待存在,等待时间长为：0.017s 。
+[2021-03-21 17:13:14,283] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮, 查找元素('xpath', '//div[@class="gologin"]')可见。
+[2021-03-21 17:13:14,288] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//div[@class="gologin"]')查找存在，等待时间长为：0.005s 。
+[2021-03-21 17:13:14,288] - [INFO] - [basepage.py] - [line: 86] - [OMS] - [日志信息]: 在 登陆页面 - 点击登陆按钮，点击元素('xpath', '//div[@class="gologin"]')。
+[2021-03-21 17:13:14,329] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_获取错误信息，等待元素('xpath', '//div[@class="_alert_dialog"]')存在。
+[2021-03-21 17:13:44,871] - [INFO] - [basepage.py] - [line: 149] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_密码为空，等待元素('xpath', '//p[text()="请输入密码!"]')存在。
+[2021-03-21 17:13:44,918] - [INFO] - [basepage.py] - [line: 160] - [OMS] - [日志信息]: 页面元素('xpath', '//p[text()="请输入密码!"]')等待存在,等待时间长为：0.047s 。
+[2021-03-21 17:13:44,919] - [INFO] - [basepage.py] - [line: 67] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_密码为空, 查找元素('xpath', '//p[text()="请输入密码!"]')可见。
+[2021-03-21 17:13:44,929] - [INFO] - [basepage.py] - [line: 79] - [OMS] - [日志信息]: 页面元素('xpath', '//p[text()="请输入密码!"]')查找存在，等待时间长为：0.01s 。
+[2021-03-21 17:13:44,929] - [INFO] - [basepage.py] - [line: 173] - [OMS] - [日志信息]: 在 登录页面_登录功能错误信息_密码为空 ，获取元素文本内容： ('xpath', '//p[text()="请输入密码!"]') 。
+[2021-03-21 17:13:44,946] - [INFO] - [basepage.py] - [line: 181] - [OMS] - [日志信息]: 获取元素文本内容为：请输入密码! 
+[2021-03-21 17:13:44,947] - [INFO] - [conftest.py] - [line: 55] - [Case] - [日志信息]: =================用例执行结束=================

@@ -166,7 +166,6 @@ class BasePage:
         :param loc:
         :param img_doc:截图图片
         :param timeout:
-        :param frequeny:
         :return:
         """
         self.wait_page_contain_element(loc, img_doc, timeout, frequency)
@@ -204,8 +203,10 @@ class BasePage:
     def get_frame_element(self, loc, img_doc, timeout=20, frequency=0.5):  # need update
         """
         跳转到iframe
+        :param frequency:
+        :param timeout:
+        :param img_doc:
         :param loc:
-        :param eqc:
         :return:
         """
         case_log.info("在 {}，跳转到iframe{}。".format(img_doc, loc))
