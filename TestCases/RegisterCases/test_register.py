@@ -17,7 +17,7 @@ class TestRegister:
      断言-首页-获取注册界面提示语、页面元素，确认元素是否存在或提示语是否存在
     """
 
-    @allure.story('测试注册功能，联系人字段为空')
+    @allure.story('测试注册功能，联系人字段为空1111')
     @pytest.mark.parametrize('data', REG.ContactNone_data)
     def test_register01(self, data, register_web):
         with allure.step('1.输入公司名称:{}'
